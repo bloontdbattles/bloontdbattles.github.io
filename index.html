@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Unofficial Bloons TD Battles 1 stats tracker with leaderboard and player profiles."
+    />
+    <title>BTD Battles Stats | Home</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Space+Grotesk:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/png" href="images/extra/blueblood.png" />
+    <link rel="apple-touch-icon" href="images/extra/blueblood.png" />
+    <link rel="stylesheet" href="css/main.css?v=20260418s" />
+  </head>
+  <body>
+    <div class="bg-orb orb-1"></div>
+    <div class="bg-orb orb-2"></div>
+
+    <header class="site-header">
+      <a class="brand" href="index.html">
+        <span class="brand-mark">BTD</span>
+        <span class="brand-text">Battles Stats</span>
+      </a>
+      <button class="menu-btn" id="menuBtn" aria-label="Toggle navigation">
+        Menu
+      </button>
+      <nav class="site-nav" id="siteNav">
+        <a class="active" href="index.html">Home</a>
+        <a href="leaderboard.html">Leaderboard</a>
+        <a href="past_weeks.html">Past Weeks</a>
+        <a href="clans.html">Clans</a>
+        <a href="player.html">Lookup</a>
+      </nav>
+    </header>
+
+    <main class="container">
+      <section class="hero reveal">
+        <span class="hero-brand-media">
+          <img
+            class="hero-brand-image"
+            src="images/extra/blueblood.png"
+            alt="Blue Blood Beta"
+            loading="lazy"
+            decoding="async"
+          />
+        </span>
+        <div class="hero-copy">
+          <p class="eyebrow">Bloons TD Battles</p>
+          <h1>Blue Blood Beta</h1>
+          <p class="lead">
+            Explore real time BTD Battles leaderboards, track player stats and
+            discover top rankings from around the world. <br />Stay updated with
+            accurate data and follow the best players in the game.
+          </p>
+        </div>
+        <div class="hero-actions hero-extra-actions hero-buttons-right">
+          <div class="hero-button-group">
+            <a
+              class="hero-image-btn"
+              href="https://discord.gg/dJ9buVhKV6"
+              target="_blank"
+              rel="noreferrer noopener"
+              aria-label="Join my Discord"
+            >
+              <img
+                src="images/extra/discord.png"
+                alt="Discord"
+                loading="lazy"
+                decoding="async"
+              />
+            </a>
+            <p class="hero-button-label">Join Our Discord</p>
+          </div>
+          <div class="hero-button-group hero-button-group-offset">
+            <a
+              class="hero-image-btn"
+              href="https://www.paypal.me/KavindaHasaranga"
+              target="_blank"
+              rel="noreferrer noopener"
+              aria-label="Support me"
+            >
+              <img
+                src="images/extra/support.png"
+                alt="Support me"
+                loading="lazy"
+                decoding="async"
+              />
+            </a>
+            <p class="hero-button-label">Support Me</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="card arenas-card reveal" aria-label="Arena schedule">
+        <div class="arena-label-panel">
+          <span class="arena-mode-media" id="currentArenaImageWrap" hidden>
+            <img
+              class="arena-mode-image"
+              id="currentArenaImage"
+              src=""
+              alt=""
+              loading="lazy"
+              decoding="async"
+            />
+          </span>
+          <div class="arena-label-copy">
+            <h2 class="home-section-title">Arena Schedule</h2>
+            <h3 class="arena-group-title" id="currentArenaTitle">
+              Loading current week arena...
+            </h3>
+            <p class="arena-sub-meta" id="currentArenaMeta">
+              Fetching weekly arena mode and schedule.
+            </p>
+          </div>
+        </div>
+
+        <div class="arena-group" id="currentArenaGroup">
+          <div
+            class="schedule-list"
+            id="currentArenaSchedule"
+            aria-live="polite"
+          >
+            <p class="arena-line">Loading schedule...</p>
+          </div>
+        </div>
+      </section>
+
+      <div class="arena-week-nav" aria-label="Arena week navigation">
+        <button class="arena-nav-btn" id="arenaPrevWeekBtn" type="button">
+          Previous
+        </button>
+        <button class="arena-nav-btn" id="arenaNextWeekBtn" type="button">
+          Upcoming
+        </button>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <p>Made By KAViNDA &copy;</p>
+    </footer>
+
+    <script src="js/config.js"></script>
+    <script src="js/utils.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/home.js?v=20260418l"></script>
+  </body>
+</html>

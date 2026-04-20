@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta property="og:title" content="B1Data - User Profile" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://b1data.vercel.app/player.html" />
+    <meta property="og:image" content="https://b1data.vercel.app/btdb1.jpg" />
+    <meta
+      property="og:description"
+      content="The hub of info for Bloons TD Battles."
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="B1Data - User Profile" />
+    <meta
+      name="twitter:description"
+      content="The hub of info for Bloons TD Battles."
+    />
+    <meta name="twitter:image" content="https://b1data.vercel.app/btdb1.jpg" />
+    <meta
+      name="description"
+      content="Lookup BTD Battles 1 player or clan profiles by ID."
+    />
+    <title>BTD Battles Stats | Lookup</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Space+Grotesk:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/png" href="images/extra/blueblood.png" />
+    <link rel="apple-touch-icon" href="images/extra/blueblood.png" />
+    <link rel="stylesheet" href="css/main.css?v=20260417u" />
+    <link rel="stylesheet" href="css/player.css?v=20260419e" />
+  </head>
+  <body>
+    <div class="bg-orb orb-1"></div>
+    <div class="bg-orb orb-2"></div>
+
+    <header class="site-header">
+      <a class="brand" href="index.html">
+        <span class="brand-mark">BTD</span>
+        <span class="brand-text">Battles Stats</span>
+      </a>
+      <button class="menu-btn" id="menuBtn" aria-label="Toggle navigation">
+        Menu
+      </button>
+      <nav class="site-nav" id="siteNav">
+        <a href="index.html">Home</a>
+        <a href="leaderboard.html">Leaderboard</a>
+        <a href="past_weeks.html">Past Weeks</a>
+        <a href="clans_v2.html?v=20260419t">Clans</a>
+        <a class="active" href="player.html">Lookup</a>
+      </nav>
+    </header>
+
+    <main class="container player-container">
+      <section class="page-head reveal">
+        <div>
+          <p class="eyebrow">Profile Finder</p>
+          <h1>Lookup</h1>
+        </div>
+      </section>
+
+      <section class="card reveal">
+        <form id="playerForm" class="player-form" autocomplete="off">
+          <label for="playerId">Player or Clan ID</label>
+          <div class="form-row">
+            <input
+              id="playerId"
+              name="playerId"
+              type="text"
+              placeholder="Example: 6961315c05aee5fa025f3131 or 69d312fb67c3d6164d719717"
+              required
+            />
+            <button type="submit" class="btn btn-primary">Load Lookup</button>
+          </div>
+        </form>
+        <p class="muted">
+          Enter a player ID or a clan ID to see the matching details.
+        </p>
+        <p class="error" id="playerError" hidden></p>
+      </section>
+
+      <section class="card reveal profile-card" id="profileGrid" hidden>
+        <div class="profile-header">
+          <div class="avatar" id="avatar">??</div>
+          <div class="user-info">
+            <h2 id="username">Unknown</h2>
+            <p id="playerIdLabel"></p>
+            <p id="countryLabel"></p>
+            <p id="clanIdLabel"></p>
+          </div>
+        </div>
+
+        <div class="stats">
+          <h2>Stats</h2>
+          <table>
+            <tbody id="statsTableBody">
+              <tr>
+                <th>Loading</th>
+                <td>...</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <div class="badges">
+            <h3>Featured Badge</h3>
+            <div id="featuredBadgeWrap" class="badge-wrap"></div>
+          </div>
+
+          <div class="badges">
+            <h3>Badges</h3>
+            <div id="badgesWrap" class="badge-wrap"></div>
+          </div>
+        </div>
+
+        <p class="muted" id="clanJumpWrap" hidden>
+          <a
+            id="clanJumpLink"
+            class="mini-link"
+            href="clans_v2.html?v=20260419t"
+            >Open clan leaderboard</a
+          >
+        </p>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>Made By KAViNDA &copy;</p>
+    </footer>
+
+    <script src="js/config.js"></script>
+    <script src="js/utils.js?v=20260419e"></script>
+    <script src="js/main.js?v=20260419s"></script>
+    <script src="js/clan-badge-composer.js?v=20260419e"></script>
+    <script src="js/regional-badge-composer.js?v=20260417a"></script>
+    <script src="js/regional-badge-position-config.js?v=20260417a"></script>
+    <script src="js/player.js?v=20260419v"></script>
+  </body>
+</html>

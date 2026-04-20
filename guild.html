@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Clan Info</title>
+    <link rel="stylesheet" href="css/guild.css?v=20260419e" />
+  </head>
+  <body>
+    <h1 id="clanName">Loading Clan...</h1>
+    <div class="container">
+      <div id="badgePreview"></div>
+      <div class="info">
+        <span class="label">Guild ID:</span>
+        <span class="value" id="guildID"></span>
+      </div>
+      <div class="info">
+        <span class="label">Owner:</span> <span class="value" id="owner"></span>
+      </div>
+      <div class="info">
+        <span class="label">Status:</span>
+        <span class="value" id="status"></span>
+      </div>
+      <div class="info">
+        <span class="label">Members:</span>
+        <span class="value" id="members"></span>
+      </div>
+      <div class="info">
+        <span class="label">Max Members:</span>
+        <span class="value" id="maxMembers"></span>
+      </div>
+      <div class="info">
+        <span class="label">Tagline:</span>
+        <span class="value" id="tagline"></span>
+      </div>
+      <div class="info">
+        <span class="label">Shortcode:</span>
+        <span class="value" id="shortcode"></span>
+      </div>
+      <div class="info">
+        <span class="label">Chat Enabled:</span>
+        <span class="value" id="chatEnabled"></span>
+      </div>
+      <div class="info">
+        <span class="label">Country:</span>
+        <span class="value" id="country"></span>
+      </div>
+    </div>
+    <div class="error" id="guildError" hidden></div>
+
+    <script src="js/utils.js?v=20260419e"></script>
+    <script src="js/clan-badge-composer.js?v=20260419e"></script>
+    <script src="js/guild.js?v=20260419e"></script>
+  </body>
+</html>

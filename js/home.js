@@ -94,7 +94,7 @@
       ["Thur.", "Moab pit free powerups + BFB R3 spananza"],
       [
         "Fri.",
-        "Moab pit free powerups + BFB free powerups + BFB R3 speed megaboosts",
+        "Moab pit free powerups + BFB free powerups + BFB R3 speed megaboosts + ZOMG boosts only",
       ],
       ["Sat.", "Moab pit speed + BFB R3 + ZOMG free powerups"],
       ["Sun.", "Moab pit free powerups + BFB boosts only + ZOMG spananza"],

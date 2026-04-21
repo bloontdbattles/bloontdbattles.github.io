@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://bloontdbattles.github.io/sitemap.xml
+Sitemap: https://bloontdbattles.github.io/sitemap_index.xml

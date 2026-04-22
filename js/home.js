@@ -23,7 +23,8 @@
   const NEW_ROTATION_START_WEEK = 423;
   const WEEKLY_RESET_BASE = new Date("2015-12-16T14:00:00+04:00").getTime();
   const WEEK_MS = 7 * 24 * 60 * 60 * 1000;
-  const LIVE_WEEK_NUMBER = 569;
+  const LIVE_WEEK_NUMBER =
+    typeof getCurrentWeekNumber === "function" ? getCurrentWeekNumber() : 570;
   const MONTH_NAMES = [
     "January",
     "February",
@@ -94,7 +95,7 @@
       ["Thur.", "Moab pit free powerups + BFB R3 spananza"],
       [
         "Fri.",
-        "Moab pit free powerups + BFB free powerups + BFB R3 speed megaboosts + ZOMG boosts only",
+        "Moab pit free powerups + BFB free powerups + BFB R3 speed megaboosts",
       ],
       ["Sat.", "Moab pit speed + BFB R3 + ZOMG free powerups"],
       ["Sun.", "Moab pit free powerups + BFB boosts only + ZOMG spananza"],

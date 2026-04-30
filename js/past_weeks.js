@@ -95,13 +95,9 @@ if (weekInput) {
     }
   });
 
-  const liveWeek =
-    typeof getCurrentWeekNumber === "function" ? getCurrentWeekNumber() : 570;
-  const requestedWeek =
-    sanitiseWeek(queryParam("week")) ||
-    sanitiseWeek(weekInput.value) ||
-    liveWeek;
-  const initialWeek = Math.max(liveWeek, requestedWeek);
+  const liveWeek = getCurrentWeekNumber();
+  const requestedWeek = sanitiseWeek(queryParam("week"));
+  const initialWeek = requestedWeek || liveWeek;
   weekInput.value = String(initialWeek);
 }
 

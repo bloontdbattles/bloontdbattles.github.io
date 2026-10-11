@@ -1,0 +1,6 @@
+<SpriteInformation>
+<FrameInformation name="Decals/wasted" texw="120" texh="80" type="png">
+<Cell name="wasted_moab" x="1" y="1" w="88" h="75" ax="0" ay="0" aw="88" ah="75"/>
+<Cell name="wasted_small" x="91" y="1" w="26" h="22" ax="0" ay="0" aw="26" ah="22"/>
+</FrameInformation>
+</SpriteInformation>

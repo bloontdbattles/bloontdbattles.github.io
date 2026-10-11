@@ -1,0 +1,6 @@
+<SpriteInformation>
+<FrameInformation name="Decals/teatime" texw="120" texh="56" type="png">
+<Cell name="teatime_moab" x="1" y="1" w="90" h="53" ax="0" ay="0" aw="90" ah="53"/>
+<Cell name="teatime_small" x="93" y="1" w="26" h="15" ax="0" ay="0" aw="26" ah="15"/>
+</FrameInformation>
+</SpriteInformation>

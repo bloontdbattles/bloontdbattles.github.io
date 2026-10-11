@@ -1,0 +1,6 @@
+<SpriteInformation>
+<FrameInformation name="Decals/swords" texw="100" texh="112" type="png">
+<Cell name="swords_moab_colour" x="1" y="1" w="97" h="75" ax="0" ay="0" aw="97" ah="75"/>
+<Cell name="swords_small_colour" x="1" y="79" w="38" h="29" ax="0" ay="0" aw="38" ah="29"/>
+</FrameInformation>
+</SpriteInformation>

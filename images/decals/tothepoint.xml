@@ -1,0 +1,6 @@
+<SpriteInformation>
+<FrameInformation name="Decals/tothepoint" texw="88" texh="100" type="png">
+<Cell name="tothepoint_moab" x="1" y="1" w="63" h="97" ax="0" ay="0" aw="63" ah="97"/>
+<Cell name="tothepoint_small" x="66" y="1" w="18" h="28" ax="0" ay="0" aw="18" ah="28"/>
+</FrameInformation>
+</SpriteInformation>

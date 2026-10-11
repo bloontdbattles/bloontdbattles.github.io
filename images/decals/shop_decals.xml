@@ -1,0 +1,43 @@
+<SpriteInformation>
+<FrameInformation name="shop_decals" texw="884" texh="436" type="png">
+<Cell name="angry_moab" x="541" y="85" w="84" h="109" ax="0" ay="0" aw="84" ah="109"/>
+<Cell name="bomb_moab" x="630" y="82" w="81" h="88" ax="0" ay="0" aw="81" ah="88"/>
+<Cell name="boo_moab" x="717" y="1" w="80" h="100" ax="0" ay="0" aw="80" ah="100"/>
+<Cell name="burning_love_moab" x="541" y="1" w="86" h="81" ax="2" ay="5" aw="90" ah="90"/>
+<Cell name="count_dartula_moab" x="490" y="237" w="80" h="76" ax="0" ay="0" aw="80" ah="76"/>
+<Cell name="decal_example_blue" x="1" y="1" w="128" h="165" ax="0" ay="0" aw="128" ah="165"/>
+<Cell name="decal_example_green" x="347" y="1" w="102" h="132" ax="0" ay="0" aw="102" ah="132"/>
+<Cell name="decal_example_yellow" x="241" y="1" w="103" h="133" ax="0" ay="0" aw="103" ah="133"/>
+<Cell name="easter_bunny_moab" x="572" y="317" w="74" h="98" ax="3" ay="1" aw="80" ah="104"/>
+<Cell name="eggcellent_moab" x="132" y="1" w="106" h="103" ax="7" ay="0" aw="150" ah="141"/>
+<Cell name="elf_moab" x="240" y="137" w="102" h="86" ax="0" ay="0" aw="102" ah="86"/>
+<Cell name="feathered_freedom_moab" x="630" y="1" w="84" h="78" ax="0" ay="0" aw="84" ah="78"/>
+<Cell name="frankenmonkey_moab" x="573" y="247" w="78" h="67" ax="1" ay="0" aw="80" ah="68"/>
+<Cell name="gauntlet_moab" x="1" y="169" w="104" h="83" ax="0" ay="0" aw="104" ah="83"/>
+<Cell name="heartbreaker_moab" x="796" y="159" w="73" h="69" ax="0" ay="0" aw="73" ah="69"/>
+<Cell name="imposter_moab" x="447" y="168" w="82" h="66" ax="0" ay="0" aw="82" ah="66"/>
+<Cell name="jack_frost_moab" x="452" y="1" w="86" h="87" ax="0" ay="0" aw="86" ah="87"/>
+<Cell name="king_moab" x="800" y="76" w="77" h="80" ax="0" ay="0" aw="77" ah="80"/>
+<Cell name="knight_moab" x="101" y="296" w="95" h="90" ax="0" ay="0" aw="95" ah="90"/>
+<Cell name="lol_moab" x="199" y="318" w="91" h="67" ax="0" ay="0" aw="91" ah="67"/>
+<Cell name="lucky_charm_moab" x="306" y="237" w="90" h="96" ax="7" ay="2" aw="100" ah="100"/>
+<Cell name="mockery_moab" x="714" y="104" w="79" h="71" ax="0" ay="0" aw="79" ah="71"/>
+<Cell name="monkey_of_liberty_moab" x="1" y="352" w="93" h="83" ax="0" ay="0" aw="93" ah="83"/>
+<Cell name="nuked_moab" x="399" y="237" w="88" h="99" ax="0" ay="0" aw="88" ah="99"/>
+<Cell name="poppin_paddy_moab" x="1" y="255" w="97" h="94" ax="1" ay="3" aw="100" ah="100"/>
+<Cell name="queen_moab" x="800" y="1" w="80" h="72" ax="0" ay="0" aw="80" ah="72"/>
+<Cell name="reaper_moab" x="490" y="316" w="79" h="95" ax="0" ay="0" aw="79" ah="95"/>
+<Cell name="reindeer_moab" x="132" y="107" w="105" h="108" ax="0" ay="0" aw="106" ah="108"/>
+<Cell name="santahat_moab" x="649" y="317" w="72" h="69" ax="9" ay="11" aw="90" ah="90"/>
+<Cell name="scalper_moab" x="452" y="91" w="85" h="74" ax="0" ay="0" aw="85" ah="74"/>
+<Cell name="scrooge_moab" x="788" y="231" w="70" h="78" ax="0" ay="0" aw="70" ah="78"/>
+<Cell name="skull_moab" x="724" y="312" w="65" h="74" ax="13" ay="9" aw="90" ah="90"/>
+<Cell name="smile_moab" x="384" y="339" w="87" h="83" ax="0" ay="0" aw="87" ah="83"/>
+<Cell name="snowman_moab" x="711" y="178" w="74" h="77" ax="8" ay="7" aw="90" ah="90"/>
+<Cell name="st_nick_moab" x="293" y="336" w="88" h="79" ax="0" ay="0" aw="88" ah="79"/>
+<Cell name="supermonkey_moab" x="208" y="226" w="95" h="89" ax="0" ay="0" aw="95" ah="89"/>
+<Cell name="swords_moab" x="108" y="218" w="97" h="75" ax="0" ay="0" aw="97" ah="75"/>
+<Cell name="trick_or_treat_moab" x="628" y="173" w="80" h="71" ax="0" ay="0" aw="80" ah="71"/>
+<Cell name="twisted_desire_moab" x="345" y="137" w="99" h="97" ax="1" ay="2" aw="100" ah="100"/>
+</FrameInformation>
+</SpriteInformation>

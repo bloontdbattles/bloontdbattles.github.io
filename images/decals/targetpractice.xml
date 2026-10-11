@@ -1,0 +1,6 @@
+<SpriteInformation>
+<FrameInformation name="Decals/targetpractice" texw="128" texh="96" type="png">
+<Cell name="targetpractice_moab" x="1" y="1" w="94" h="94" ax="0" ay="0" aw="94" ah="94"/>
+<Cell name="targetpractice_small" x="97" y="1" w="27" h="27" ax="0" ay="0" aw="27" ah="27"/>
+</FrameInformation>
+</SpriteInformation>

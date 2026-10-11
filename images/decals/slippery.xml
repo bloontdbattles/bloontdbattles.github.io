@@ -1,0 +1,6 @@
+<SpriteInformation>
+<FrameInformation name="Decals/slippery" texw="116" texh="92" type="png">
+<Cell name="slippery_moab" x="1" y="1" w="87" h="87" ax="0" ay="0" aw="87" ah="87"/>
+<Cell name="slippery_small" x="90" y="1" w="25" h="25" ax="0" ay="0" aw="25" ah="25"/>
+</FrameInformation>
+</SpriteInformation>

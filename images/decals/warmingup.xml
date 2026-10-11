@@ -1,0 +1,6 @@
+<SpriteInformation>
+<FrameInformation name="Decals/warmingup" texw="128" texh="92" type="png">
+<Cell name="warmingup_moab" x="1" y="1" w="95" h="89" ax="0" ay="0" aw="95" ah="89"/>
+<Cell name="warmingup_small" x="98" y="1" w="28" h="26" ax="0" ay="0" aw="28" ah="26"/>
+</FrameInformation>
+</SpriteInformation>

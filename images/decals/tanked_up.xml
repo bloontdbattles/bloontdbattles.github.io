@@ -1,0 +1,6 @@
+<SpriteInformation>
+<FrameInformation name="Decals/tanked_up" texw="108" texh="104" type="png">
+<Cell name="tanked_up_moab" x="1" y="1" w="103" h="75" ax="0" ay="0" aw="103" ah="75"/>
+<Cell name="tanked_up_small" x="1" y="78" w="35" h="25" ax="0" ay="0" aw="35" ah="25"/>
+</FrameInformation>
+</SpriteInformation>

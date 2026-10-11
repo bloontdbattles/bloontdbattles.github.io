@@ -1,0 +1,6 @@
+<SpriteInformation>
+<FrameInformation name="Decals/snowman" texw="132" texh="92" type="png">
+<Cell name="snowman_moab_colour" x="1" y="1" w="90" h="90" ax="0" ay="0" aw="90" ah="90"/>
+<Cell name="snowman_small_colour" x="93" y="1" w="36" h="36" ax="0" ay="0" aw="36" ah="36"/>
+</FrameInformation>
+</SpriteInformation>

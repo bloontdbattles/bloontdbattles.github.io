@@ -1,0 +1,6 @@
+<SpriteInformation>
+<FrameInformation name="Decals/smile" texw="92" texh="120" type="png">
+<Cell name="smile_moab_colour" x="1" y="1" w="87" h="83" ax="0" ay="0" aw="87" ah="83"/>
+<Cell name="smile_small_colour" x="1" y="87" w="30" h="29" ax="0" ay="0" aw="30" ah="29"/>
+</FrameInformation>
+</SpriteInformation>

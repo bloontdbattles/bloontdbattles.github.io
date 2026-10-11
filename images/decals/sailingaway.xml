@@ -1,0 +1,6 @@
+<SpriteInformation>
+<FrameInformation name="Decals/sailingaway" texw="116" texh="96" type="png">
+<Cell name="sailingaway_moab" x="1" y="1" w="87" h="92" ax="0" ay="0" aw="87" ah="92"/>
+<Cell name="sailingaway_small" x="90" y="1" w="25" h="27" ax="0" ay="0" aw="25" ah="27"/>
+</FrameInformation>
+</SpriteInformation>

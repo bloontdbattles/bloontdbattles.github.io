@@ -1,0 +1,6 @@
+<SpriteInformation>
+<FrameInformation name="Decals/conquest" texw="100" texh="124" type="png">
+<Cell name="conquest_moab" x="1" y="1" w="96" h="88" ax="0" ay="0" aw="96" ah="88"/>
+<Cell name="conquest_small" x="1" y="91" w="32" h="30" ax="0" ay="0" aw="32" ah="30"/>
+</FrameInformation>
+</SpriteInformation>

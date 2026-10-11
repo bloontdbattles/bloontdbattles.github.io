@@ -1,0 +1,6 @@
+<SpriteInformation>
+<FrameInformation name="Decals/bullrush" texw="152" texh="100" type="png">
+<Cell name="bullrush_moab_colour" x="1" y="1" w="109" h="98" ax="0" ay="0" aw="109" ah="98"/>
+<Cell name="bullrush_small_colour" x="112" y="1" w="38" h="34" ax="0" ay="0" aw="38" ah="34"/>
+</FrameInformation>
+</SpriteInformation>

@@ -1,0 +1,6 @@
+<SpriteInformation>
+<FrameInformation name="Decals/candycane" texw="136" texh="104" type="png">
+<Cell name="candycane_moab" x="1" y="1" w="100" h="100" ax="0" ay="0" aw="100" ah="100"/>
+<Cell name="candycane_small" x="103" y="1" w="30" h="30" ax="0" ay="0" aw="30" ah="30"/>
+</FrameInformation>
+</SpriteInformation>

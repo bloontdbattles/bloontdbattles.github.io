@@ -1,0 +1,6 @@
+<SpriteInformation>
+<FrameInformation name="Decals/darkknight" texw="84" texh="100" type="png">
+<Cell name="darkknight_moab" x="1" y="1" w="60" h="96" ax="0" ay="0" aw="60" ah="96"/>
+<Cell name="darkknight_small" x="63" y="1" w="17" h="28" ax="0" ay="0" aw="17" ah="28"/>
+</FrameInformation>
+</SpriteInformation>

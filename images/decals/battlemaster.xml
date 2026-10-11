@@ -1,0 +1,6 @@
+<SpriteInformation>
+<FrameInformation name="Decals/battlemaster" texw="100" texh="104" type="png">
+<Cell name="battlemaster_moab" x="1" y="1" w="95" h="73" ax="0" ay="0" aw="95" ah="73"/>
+<Cell name="battlemaster_small" x="1" y="76" w="32" h="25" ax="0" ay="0" aw="32" ah="25"/>
+</FrameInformation>
+</SpriteInformation>

@@ -1,0 +1,6 @@
+<SpriteInformation>
+<FrameInformation name="Decals/bomb" texw="120" texh="92" type="png">
+<Cell name="bomb_moab_colour" x="1" y="1" w="81" h="88" ax="0" ay="0" aw="81" ah="88"/>
+<Cell name="bomb_small_colour" x="85" y="1" w="32" h="35" ax="0" ay="0" aw="32" ah="35"/>
+</FrameInformation>
+</SpriteInformation>

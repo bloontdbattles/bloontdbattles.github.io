@@ -1,0 +1,6 @@
+<SpriteInformation>
+<FrameInformation name="Decals/count_dartula" texw="84" texh="112" type="png">
+<Cell name="count_dartula_moab_colour" x="1" y="1" w="80" h="76" ax="0" ay="0" aw="80" ah="76"/>
+<Cell name="count_dartula_small_colour" x="1" y="80" w="30" h="28" ax="0" ay="0" aw="30" ah="28"/>
+</FrameInformation>
+</SpriteInformation>

@@ -1,0 +1,6 @@
+<SpriteInformation>
+<FrameInformation name="Decals/boo" texw="112" texh="92" type="png">
+<Cell name="boo_moab_colour" x="1" y="1" w="72" h="90" ax="0" ay="6" aw="72" ah="96"/>
+<Cell name="boo_small_colour" x="76" y="1" w="32" h="41" ax="0" ay="3" aw="32" ah="44"/>
+</FrameInformation>
+</SpriteInformation>

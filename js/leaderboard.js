@@ -549,18 +549,41 @@ function getRegionFlagFileName(countryCode) {
   return byCode[code] || code;
 }
 
+const COUNTRY_FLAG_FILE_BY_KEY = {
+  ar: "AR", argentina: "AR", au: "AU", australia: "AU", at: "AT", austria: "AT",
+  be: "BE", belgium: "BE", br: "BR", brazil: "BR", bg: "BG", bulgaria: "BG",
+  ca: "CA", canada: "CA", cl: "CL", chile: "CL", cn: "CN", china: "CN",
+  co: "CO", colombia: "CO", hr: "HR", croatia: "HR", cz: "CZ", czechrepublic: "CZ", czechia: "CZ",
+  dk: "DK", denmark: "DK", ee: "EE", estonia: "EE", fi: "FI", finland: "FI",
+  fr: "FR", france: "FR", gb: "GB", uk: "GB", unitedkingdom: "GB", de: "DE", germany: "DE",
+  gr: "GR", greece: "GR", hk: "HK", hongkong: "HK", hongkongsar: "HK", hu: "HU", hungary: "HU",
+  in: "IN", india: "IN", id: "ID", indonesia: "ID", ie: "IE", ireland: "IE",
+  il: "IL", israel: "IL", it: "IT", italy: "IT", jp: "JP", japan: "JP",
+  lv: "LV", latvia: "LV", lt: "LT", lithuania: "LT", lithunia: "LT", my: "MY", malaysia: "MY",
+  mx: "MX", mexico: "MX", nl: "NL", netherlands: "NL", nz: "NZ", newzealand: "NZ",
+  no: "NO", norway: "NO", ph: "PH", philippines: "PH", pl: "PL", poland: "PL",
+  pt: "PT", portugal: "PT", portugual: "PT", tw: "TW", taiwan: "TW", ro: "RO", romania: "RO",
+  ru: "RU", russia: "RU", sa: "SA", saudiarabia: "SA", sg: "SG", singapore: "SG",
+  si: "SI", slovenia: "SI", za: "ZA", southafrica: "ZA", kr: "KR", southkorea: "KR",
+  es: "ES", spain: "ES", se: "SE", sweden: "SE", ch: "CH", switzerland: "CH",
+  th: "TH", thailand: "TH", tr: "TR", turkey: "TR", ua: "UA", ukraine: "UA",
+  ae: "AE", unitedarabemirates: "AE", us: "US", unitedstates: "US", vn: "VN", vietnam: "VN"
+};
+
 function getRegionFlagCandidatePaths(countryCode) {
-  const code = String(countryCode || "")
-    .trim()
-    .toUpperCase();
-  if (!code) {
+  const rawValue = String(countryCode || "").trim();
+  if (!rawValue || rawValue.toUpperCase() === "GLOBAL") {
     return [];
   }
 
-  const mapped = getRegionFlagFileName(code);
-  const candidates = [mapped, code].filter(Boolean);
+  const key = normalizeAssetKey(rawValue);
+  const mapped = COUNTRY_FLAG_FILE_BY_KEY[key];
+  const codeLike = rawValue.toUpperCase();
+
+  const candidates = [mapped, rawValue, codeLike, codeLike.slice(0, 2)].filter(Boolean);
+
   return [...new Set(candidates)].map(
-    (name) => `images/Country%20Flags/${encodeURIComponent(name)}.png`,
+    (name) => `images/Country%20Flags/${encodeURIComponent(name)}.png`
   );
 }
 

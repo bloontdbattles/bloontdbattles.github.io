@@ -50,332 +50,41 @@ const BADGE_FILE_BY_KEY = {
 };
 
 const COUNTRY_FLAG_FILE_BY_KEY = {
-  ar: "AR",
-  argentina: "AR",
-  au: "AU",
-  australia: "AU",
-  at: "AT",
-  austria: "AT",
-  be: "BE",
-  belgium: "BE",
-  br: "BR",
-  brazil: "BR",
-  bg: "BG",
-  bulgaria: "BG",
-  ca: "CA",
-  canada: "CA",
-  cl: "CL",
-  chile: "CL",
-  cn: "CN",
-  china: "CN",
-  co: "CO",
-  colombia: "CO",
-  hr: "HR",
-  croatia: "HR",
-  cz: "CZ",
-  czechrepublic: "CZ",
-  czechia: "CZ",
-  dk: "DK",
-  denmark: "DK",
-  ee: "EE",
-  estonia: "EE",
-  fi: "FI",
-  finland: "FI",
-  fr: "FR",
-  france: "FR",
-  gb: "GB",
-  uk: "GB",
-  unitedkingdom: "GB",
-  de: "DE",
-  germany: "DE",
-  gr: "GR",
-  greece: "GR",
-  hk: "HK",
-  hongkong: "HK",
-  hongkongsar: "HK",
-  hu: "HU",
-  hungary: "HU",
-  in: "IN",
-  india: "IN",
-  id: "ID",
-  indonesia: "ID",
-  ie: "IE",
-  ireland: "IE",
-  il: "IL",
-  israel: "IL",
-  it: "IT",
-  italy: "IT",
-  jp: "JP",
-  japan: "JP",
-  lv: "LV",
-  latvia: "LV",
-  lt: "LT",
-  lithuania: "LT",
-  lithunia: "LT",
-  my: "MY",
-  malaysia: "MY",
-  mx: "MX",
-  mexico: "MX",
-  nl: "NL",
-  netherlands: "NL",
-  nz: "NZ",
-  newzealand: "NZ",
-  no: "NO",
-  norway: "NO",
-  ph: "PH",
-  philippines: "PH",
-  pl: "PL",
-  poland: "PL",
-  pt: "PT",
-  portugal: "PT",
-  portugual: "PT",
-  tw: "TW",
-  taiwan: "TW",
-  ro: "RO",
-  romania: "RO",
-  ru: "RU",
-  russia: "RU",
-  sa: "SA",
-  saudiarabia: "SA",
-  sg: "SG",
-  singapore: "SG",
-  si: "SI",
-  slovenia: "SI",
-  za: "ZA",
-  southafrica: "ZA",
-  kr: "KR",
-  southkorea: "KR",
-  es: "ES",
-  spain: "ES",
-  se: "SE",
-  sweden: "SE",
-  ch: "CH",
-  switzerland: "CH",
-  th: "TH",
-  thailand: "TH",
-  tr: "TR",
-  turkey: "TR",
-  ua: "UA",
-  ukraine: "UA",
-  ae: "AE",
-  unitedarabemirates: "AE",
-  us: "US",
-  unitedstates: "US",
-  vn: "VN",
-  vietnam: "VN",
+  ar: "AR", argentina: "AR", au: "AU", australia: "AU", at: "AT", austria: "AT",
+  be: "BE", belgium: "BE", br: "BR", brazil: "BR", bg: "BG", bulgaria: "BG",
+  ca: "CA", canada: "CA", cl: "CL", chile: "CL", cn: "CN", china: "CN",
+  co: "CO", colombia: "CO", hr: "HR", croatia: "HR", cz: "CZ", czechrepublic: "CZ", czechia: "CZ",
+  dk: "DK", denmark: "DK", ee: "EE", estonia: "EE", fi: "FI", finland: "FI",
+  fr: "FR", france: "FR", gb: "GB", uk: "GB", unitedkingdom: "GB", de: "DE", germany: "DE",
+  gr: "GR", greece: "GR", hk: "HK", hongkong: "HK", hongkongsar: "HK", hu: "HU", hungary: "HU",
+  in: "IN", india: "IN", id: "ID", indonesia: "ID", ie: "IE", ireland: "IE",
+  il: "IL", israel: "IL", it: "IT", italy: "IT", jp: "JP", japan: "JP",
+  lv: "LV", latvia: "LV", lt: "LT", lithuania: "LT", lithunia: "LT", my: "MY", malaysia: "MY",
+  mx: "MX", mexico: "MX", nl: "NL", netherlands: "NL", nz: "NZ", newzealand: "NZ",
+  no: "NO", norway: "NO", ph: "PH", philippines: "PH", pl: "PL", poland: "PL",
+  pt: "PT", portugal: "PT", portugual: "PT", tw: "TW", taiwan: "TW", ro: "RO", romania: "RO",
+  ru: "RU", russia: "RU", sa: "SA", saudiarabia: "SA", sg: "SG", singapore: "SG",
+  si: "SI", slovenia: "SI", za: "ZA", southafrica: "ZA", kr: "KR", southkorea: "KR",
+  es: "ES", spain: "ES", se: "SE", sweden: "SE", ch: "CH", switzerland: "CH",
+  th: "TH", thailand: "TH", tr: "TR", turkey: "TR", ua: "UA", ukraine: "UA",
+  ae: "AE", unitedarabemirates: "AE", us: "US", unitedstates: "US", vn: "VN", vietnam: "VN"
 };
 
 const COUNTRY_DISPLAY_NAME_BY_FILE = {
-  AR: "Argentina",
-  AU: "Australia",
-  AT: "Austria",
-  BE: "Belgium",
-  BR: "Brazil",
-  BG: "Bulgaria",
-  CA: "Canada",
-  CL: "Chile",
-  CN: "China",
-  CO: "Colombia",
-  HR: "Croatia",
-  CZ: "Czechia",
-  DK: "Denmark",
-  EE: "Estonia",
-  FI: "Finland",
-  FR: "France",
-  GB: "United Kingdom",
-  DE: "Germany",
-  GR: "Greece",
-  HK: "Hong-Kong",
-  HU: "Hungary",
-  IN: "India",
-  ID: "Indonesia",
-  IE: "Ireland",
-  IL: "Israel",
-  IT: "Italy",
-  JP: "Japan",
-  LV: "Latvia",
-  LT: "Lithunia",
-  MY: "Malaysia",
-  MX: "Mexico",
-  NL: "Netherlands",
-  NZ: "New Zealand",
-  NO: "Norway",
-  PH: "Philippines",
-  PL: "Poland",
-  PT: "Portugual",
-  TW: "Taiwan",
-  RO: "Romania",
-  RU: "Russia",
-  SA: "Saudi Arabia",
-  SG: "Singapore",
-  SI: "Slovenia",
-  ZA: "South Africa",
-  KR: "South Korea",
-  ES: "Spain",
-  SE: "Sweden",
-  CH: "Switzerland",
-  TH: "Thailand",
-  TR: "Turkey",
-  UA: "Ukraine",
-  AE: "United Arab Emirates",
-  US: "United States",
-  VN: "Vietnam",
+  AR: "Argentina", AU: "Australia", AT: "Austria", BE: "Belgium", BR: "Brazil", BG: "Bulgaria",
+  CA: "Canada", CL: "Chile", CN: "China", CO: "Colombia", HR: "Croatia", CZ: "Czechia",
+  DK: "Denmark", EE: "Estonia", FI: "Finland", FR: "France", GB: "United Kingdom", DE: "Germany",
+  GR: "Greece", HK: "Hong-Kong", HU: "Hungary", IN: "India", ID: "Indonesia", IE: "Ireland",
+  IL: "Israel", IT: "Italy", JP: "Japan", LV: "Latvia", LT: "Lithunia", MY: "Malaysia",
+  MX: "Mexico", NL: "Netherlands", NZ: "New Zealand", NO: "Norway", PH: "Philippines",
+  PL: "Poland", PT: "Portugual", TW: "Taiwan", RO: "Romania", RU: "Russia", SA: "Saudi Arabia",
+  SG: "Singapore", SI: "Slovenia", ZA: "South Africa", KR: "South Korea", ES: "Spain",
+  SE: "Sweden", CH: "Switzerland", TH: "Thailand", TR: "Turkey", UA: "Ukraine",
+  AE: "United Arab Emirates", US: "United States", VN: "Vietnam"
 };
 
-const CLAN_ICON_FILE_BY_NUMBER = {
-  "01": "Icon_01_ODS.png",
-  "02": "Icon_02_Regen.png",
-  "03": "Icon_03_Bloonjitsu.png",
-  "04": "Icon_04_Sungod.png",
-  "05": "Icon_05_Assassin.png",
-  "06": "Icon_06_BFB.png",
-  "07": "Icon_07_Blue.png",
-  "08": "Icon_08_Bomb.png",
-  "09": "Icon_09_Darts.png",
-  10: "Icon_10_DartMonkey.png",
-  11: "Icon_11_Mauler.png",
-  12: "Icon_12_MOAB.png",
-  13: "Icon_13_Pineapple.png",
-  14: "Icon_14_Red.png",
-  15: "Icon_15_Rockets.png",
-  16: "Icon_16_Shurikens.png",
-  17: "Icon_17_TechTerror.png",
-  18: "Icon_18_ZOMG.png",
-  19: "Icon_19_Buccaneer.png",
-  20: "Icon_20_Sub.png",
-  21: "Icon_21_SuperMonkey.png",
-  22: "Icon_22_NKLogo.png",
-  23: "Icon_23_NKLogoGold.png",
-  24: "Icon_24_Bombs.png",
-  25: "Icon_25_Sniper.png",
-};
-
-let guildAvatarRequestToken = 0;
 const badgeImageCache = new Map();
 const badgeComposeCache = new Map();
-
-function extractClanSymbolFromText(value) {
-  const text = String(value || "");
-  if (!text) {
-    return { shield: "", icon: "" };
-  }
-
-  const shieldMatch = text.match(/Shield_\d+/i);
-  const iconMatch = text.match(/Icon_\d+(?:_[A-Za-z0-9]+)?/i);
-
-  return {
-    shield: shieldMatch ? shieldMatch[0] : "",
-    icon: iconMatch ? iconMatch[0] : "",
-  };
-}
-
-function extractGuildSymbol(guild, rawGuild) {
-  const directShield = String(guild?.symbol?.shield || "").trim();
-  const directIcon = String(guild?.symbol?.icon || "").trim();
-  if (directShield && directIcon) {
-    return { shield: directShield, icon: directIcon };
-  }
-
-  const sources = [
-    guild?.tagline,
-    rawGuild?.tagline,
-    rawGuild ? JSON.stringify(rawGuild) : "",
-  ];
-  for (const source of sources) {
-    const parsed = extractClanSymbolFromText(source);
-    if (parsed.shield && parsed.icon) {
-      return parsed;
-    }
-  }
-
-  return { shield: directShield, icon: directIcon };
-}
-
-function normalizeClanLayerFile(value) {
-  const raw = String(value || "").trim();
-  if (!raw) {
-    return "";
-  }
-
-  const name = raw.replace(/\.png$/i, "");
-  const shieldMatch = name.match(/^shield_(\d{1,2})$/i);
-  if (shieldMatch) {
-    return `Shield_${shieldMatch[1].padStart(2, "0")}.png`;
-  }
-
-  const iconMatch = name.match(/^icon_(\d{1,2})(?:_.+)?$/i);
-  if (iconMatch) {
-    const num = iconMatch[1].padStart(2, "0");
-    return CLAN_ICON_FILE_BY_NUMBER[num] || `Icon_${num}.png`;
-  }
-
-  return /\.png$/i.test(raw) ? raw : `${raw}.png`;
-}
-
-async function composeGuildAvatarSrc(guild, rawGuild) {
-  const symbol = extractGuildSymbol(guild, rawGuild);
-  const shieldFile = normalizeClanLayerFile(symbol.shield);
-  const iconFile = normalizeClanLayerFile(symbol.icon);
-  if (!shieldFile || !iconFile) {
-    return "";
-  }
-
-  const shieldSrc = `images/clans/${encodeURIComponent(shieldFile)}`;
-  const iconSrc = `images/clans/${encodeURIComponent(iconFile)}`;
-  const composer = window.ClanBadgeComposer;
-  if (!composer || typeof composer.mergeClanBadge !== "function") {
-    return "";
-  }
-
-  try {
-    const mergedSrc = await composer.mergeClanBadge(shieldSrc, iconSrc);
-    return typeof mergedSrc === "string" ? mergedSrc : "";
-  } catch (_) {
-    return "";
-  }
-}
-
-function renderGuildAvatar(guildName, guild, rawGuild) {
-  const requestToken = ++guildAvatarRequestToken;
-  avatarEl.classList.remove("avatar--with-image");
-  avatarEl.classList.remove("avatar--clan-composite");
-  avatarEl.classList.add("avatar--with-clan-image");
-  avatarEl.innerHTML = "";
-
-  composeGuildAvatarSrc(guild, rawGuild).then((mergedSrc) => {
-    if (requestToken !== guildAvatarRequestToken || !mergedSrc) {
-      return;
-    }
-
-    avatarEl.classList.remove("avatar--with-clan-image");
-    avatarEl.classList.add("avatar--clan-composite");
-    avatarEl.innerHTML = `<img class="avatar-clan-image" src="${mergedSrc}" alt="${escapeHtml(guildName || "Clan")} badge" loading="lazy" decoding="async" />`;
-  });
-}
-
-function renderTableRows(target, rows) {
-  target.innerHTML = rows
-    .map(
-      (row) => `
-		<tr>
-			<th>${escapeHtml(row.label)}</th>
-			<td>${escapeHtml(row.value)}</td>
-		</tr>
-	`,
-    )
-    .join("");
-}
-
-function createAvatarInitials(name) {
-  const value = String(name || "").trim();
-  if (!value) return "??";
-  return value
-    .split(/\s+/)
-    .map((word) => word[0])
-    .join("")
-    .toUpperCase()
-    .slice(0, 2);
-}
 
 function normalizeAssetKey(value) {
   return String(value || "")
@@ -461,8 +170,15 @@ function loadBadgeImage(src) {
 
   const promise = new Promise((resolve, reject) => {
     const img = new Image();
-    img.decoding = "async";
-    img.onload = () => resolve(img);
+    img.crossOrigin = "anonymous";
+    img.onload = async () => {
+      if (typeof img.decode === "function") {
+        try {
+          await img.decode();
+        } catch (_) {}
+      }
+      resolve(img);
+    };
     img.onerror = () => reject(new Error(`Failed to load image: ${src}`));
     img.src = src;
   });
@@ -725,7 +441,7 @@ async function applyPrestigeMergeToImage(imgEl) {
       scale: 1.2,
       rankText:
         Number.isFinite(Number(rankValue)) && Number(rankValue) > 0
-          ? formatNumber(Number(rankValue))
+          ? typeof formatNumber === "function" ? formatNumber(Number(rankValue)) : String(rankValue)
           : "",
     },
   );
@@ -829,6 +545,181 @@ function enhanceRegionalBadges(fallbackCountryValue) {
   });
 }
 
+
+
+const CLAN_ICON_FILE_BY_NUMBER = {
+  "01": "Icon_01_ODS.png",
+  "02": "Icon_02_Regen.png",
+  "03": "Icon_03_Bloonjitsu.png",
+  "04": "Icon_04_Sungod.png",
+  "05": "Icon_05_Assassin.png",
+  "06": "Icon_06_BFB.png",
+  "07": "Icon_07_Blue.png",
+  "08": "Icon_08_Bomb.png",
+  "09": "Icon_09_Darts.png",
+  10: "Icon_10_DartMonkey.png",
+  11: "Icon_11_Mauler.png",
+  12: "Icon_12_MOAB.png",
+  13: "Icon_13_Pineapple.png",
+  14: "Icon_14_Red.png",
+  15: "Icon_15_Rockets.png",
+  16: "Icon_16_Shurikens.png",
+  17: "Icon_17_TechTerror.png",
+  18: "Icon_18_ZOMG.png",
+  19: "Icon_19_Buccaneer.png",
+  20: "Icon_20_Sub.png",
+  21: "Icon_21_SuperMonkey.png",
+  22: "Icon_22_NKLogo.png",
+  23: "Icon_23_NKLogoGold.png",
+  24: "Icon_24_Bombs.png",
+  25: "Icon_25_Sniper.png",
+};
+
+let guildAvatarRequestToken = 0;
+
+
+function extractClanSymbolFromText(value) {
+  const text = String(value || "");
+  if (!text) {
+    return { shield: "", icon: "" };
+  }
+
+  const shieldMatch = text.match(/Shield_\d+/i);
+  const iconMatch = text.match(/Icon_\d+(?:_[A-Za-z0-9]+)?/i);
+
+  return {
+    shield: shieldMatch ? shieldMatch[0] : "",
+    icon: iconMatch ? iconMatch[0] : "",
+  };
+}
+
+function extractGuildSymbol(guild, rawGuild) {
+  const directShield = String(guild?.symbol?.shield || "").trim();
+  const directIcon = String(guild?.symbol?.icon || "").trim();
+  if (directShield && directIcon) {
+    return { shield: directShield, icon: directIcon };
+  }
+
+  const sources = [
+    guild?.tagline,
+    rawGuild?.tagline,
+    rawGuild ? JSON.stringify(rawGuild) : "",
+  ];
+  for (const source of sources) {
+    const parsed = extractClanSymbolFromText(source);
+    if (parsed.shield && parsed.icon) {
+      return parsed;
+    }
+  }
+
+  return { shield: directShield, icon: directIcon };
+}
+
+function normalizeClanLayerFile(value) {
+  const raw = String(value || "").trim();
+  if (!raw) {
+    return "";
+  }
+
+  const name = raw.replace(/\.png$/i, "");
+  const shieldMatch = name.match(/^shield_(\d{1,2})$/i);
+  if (shieldMatch) {
+    return `Shield_${shieldMatch[1].padStart(2, "0")}.png`;
+  }
+
+  const iconMatch = name.match(/^icon_(\d{1,2})(?:_.+)?$/i);
+  if (iconMatch) {
+    const num = iconMatch[1].padStart(2, "0");
+    return CLAN_ICON_FILE_BY_NUMBER[num] || `Icon_${num}.png`;
+  }
+
+  return /\.png$/i.test(raw) ? raw : `${raw}.png`;
+}
+
+async function composeGuildAvatarSrc(guild, rawGuild) {
+  const symbol = extractGuildSymbol(guild, rawGuild);
+  const shieldFile = normalizeClanLayerFile(symbol.shield);
+  const iconFile = normalizeClanLayerFile(symbol.icon);
+  if (!shieldFile || !iconFile) {
+    return "";
+  }
+
+  const shieldSrc = `images/clans/${encodeURIComponent(shieldFile)}`;
+  const iconSrc = `images/clans/${encodeURIComponent(iconFile)}`;
+  const composer = window.ClanBadgeComposer;
+  if (!composer || typeof composer.mergeClanBadge !== "function") {
+    return "";
+  }
+
+  try {
+    const mergedSrc = await composer.mergeClanBadge(shieldSrc, iconSrc);
+    return typeof mergedSrc === "string" ? mergedSrc : "";
+  } catch (_) {
+    return "";
+  }
+}
+
+function renderGuildAvatar(guildName, guild, rawGuild) {
+  const requestToken = ++guildAvatarRequestToken;
+  avatarEl.classList.remove("avatar--with-image");
+  avatarEl.classList.remove("avatar--with-clan-image");
+  avatarEl.classList.add("avatar--clan-composite");
+  avatarEl.innerHTML = "";
+
+  const symbol = extractGuildSymbol(guild, rawGuild);
+  const shieldFile = normalizeClanLayerFile(symbol.shield);
+  const iconFile = normalizeClanLayerFile(symbol.icon);
+
+  if (!shieldFile || !iconFile) {
+    avatarEl.textContent = createAvatarInitials(guildName);
+    return;
+  }
+
+  const shieldSrc = `images/clans/${encodeURIComponent(shieldFile)}`;
+  const iconSrc = `images/clans/${encodeURIComponent(iconFile)}`;
+
+  avatarEl.innerHTML = `
+    <span class="badge-composite" aria-label="${escapeHtml(guildName || "Clan")} badge" role="img">
+      <img class="badge-layer badge-layer--shield" src="${shieldSrc}" alt="shield" />
+      <img class="badge-layer badge-layer--icon" src="${iconSrc}" alt="icon" />
+    </span>
+  `;
+
+  composeGuildAvatarSrc(guild, rawGuild).then((mergedSrc) => {
+    if (requestToken !== guildAvatarRequestToken || !mergedSrc) {
+      return;
+    }
+
+    avatarEl.innerHTML = `<img class="avatar-clan-image" src="${mergedSrc}" alt="${escapeHtml(guildName || "Clan")} badge" loading="lazy" decoding="async" />`;
+  });
+}
+
+function renderTableRows(target, rows) {
+  target.innerHTML = rows
+    .map(
+      (row) => `
+		<tr>
+			<th>${escapeHtml(row.label)}</th>
+			<td>${row.html != null ? row.html : escapeHtml(row.value)}</td>
+		</tr>
+	`,
+    )
+    .join("");
+}
+
+function createAvatarInitials(name) {
+  const value = String(name || "").trim();
+  if (!value) return "??";
+  return value
+    .split(/\s+/)
+    .map((word) => word[0])
+    .join("")
+    .toUpperCase()
+    .slice(0, 2);
+}
+
+
+
 function renderCountryLabel(countryValue) {
   if (!countryLabel) {
     return;
@@ -880,7 +771,7 @@ function renderBadges(rawProfile, countryValue) {
       .trim()
       .toUpperCase();
     const featuredCount = Number(featured.count) || 0;
-    const featuredRankValue = Number(featured.rank);
+    const featuredRankValue = Number(featured.rank ?? featured.Rank ?? (featuredIsPrestige ? rawProfile?.leaderboards?.prestige?.rank : null));
     const featuredDisplayRank = Number.isFinite(featuredRankValue)
       ? Math.trunc(featuredRankValue) + 1
       : featuredIsBlackDiamondPrestige
@@ -889,7 +780,7 @@ function renderBadges(rawProfile, countryValue) {
     const featuredPrestigeRankRaw =
       featuredDisplayRank > 0 ? String(featuredDisplayRank) : "";
 
-    const featuredCountry = String(featured.cc || "").trim();
+    const featuredCountry = String(featured.cc || featured.CountryCode || "").trim();
 
     featuredBadgeWrap.innerHTML = `
       <span class="badge" title="${escapeHtml(featured.id)} (Rank: ${formatNumber(featuredDisplayRank)}, Score: ${formatNumber(score)})">
@@ -912,13 +803,13 @@ function renderBadges(rawProfile, countryValue) {
 
   badgesWrap.innerHTML = badges
     .map((badge) => {
-      const badgeId = String(badge.id || "");
+      const badgeId = String(badge.id || badge.Id || "");
       const badgeIsPrestige = isPrestigeBadgeId(badgeId);
       const badgeIsBlackDiamondPrestige =
         isBlackDiamondPrestigeBadgeId(badgeId);
-      const rawScore = Number(badge.score) || 0;
+      const rawScore = Number(badge.score || badge.Score) || 0;
       const score = badgeIsPrestige ? rawScore / 10 : rawScore;
-      const badgeRankValue = Number(badge.rank);
+      const badgeRankValue = Number(badge.rank ?? badge.Rank ?? (badgeIsPrestige ? rawProfile?.leaderboards?.prestige?.rank : null));
       const rank = Number.isFinite(badgeRankValue)
         ? Math.trunc(badgeRankValue) + 1
         : badgeIsBlackDiamondPrestige
@@ -926,11 +817,11 @@ function renderBadges(rawProfile, countryValue) {
           : 0;
       const badgeImg = resolveBadgeImagePath(badgeId);
       const badgeAttr = escapeHtml(badgeId);
-      const badgeType = String(badge.type || "")
+      const badgeType = String(badge.type || badge.Type || "")
         .trim()
         .toUpperCase();
-      const badgeCount = Number(badge.count) || 0;
-      const badgeCountry = String(badge.cc || "").trim();
+      const badgeCount = Number(badge.count || badge.Count) || 0;
+      const badgeCountry = String(badge.cc || badge.CountryCode || "").trim();
       const badgePrestigeRankRaw = rank > 0 ? String(rank) : "";
 
       return `
@@ -969,6 +860,13 @@ function renderPlayerProfile(data) {
   playerIdLabel.textContent = `Player ID: ${data.playerID || "Unknown"}`;
   renderCountryLabel(rawProfile.CountryCode);
   clanIdLabel.textContent = `Guild ID: ${profile.clanID || "None"}`;
+
+  const moreDetailsBtn = document.getElementById("moreDetailsBtn");
+  if (moreDetailsBtn) {
+    moreDetailsBtn.href = `player_details.html?id=${encodeURIComponent(data.playerID)}`;
+    moreDetailsBtn.hidden = false;
+  }
+
   guildAvatarRequestToken += 1;
   avatarEl.classList.remove("avatar--with-clan-image");
   avatarEl.classList.remove("avatar--clan-composite");
@@ -998,7 +896,13 @@ function renderPlayerProfile(data) {
     { label: "Tournament Played", value: formatNumber(tournamentPlayed) },
     { label: "Tournament Wins", value: formatNumber(tournamentWins) },
     { label: "Tournament Losses", value: formatNumber(tournamentLosses) },
-    { label: "Clan", value: profile.clan || "-" },
+    {
+      label: "Clan",
+      html: profile.clanID
+        ? `<a class="mini-link" href="player.html?id=${encodeURIComponent(profile.clanID)}&kind=clan">${escapeHtml(profile.clan || profile.clanID)}</a>`
+        : null,
+      value: profile.clanID ? null : (profile.clan || "-"),
+    },
     {
       label: "Weekly Leaderboard",
       value:
@@ -1026,7 +930,8 @@ function renderPlayerProfile(data) {
   }
 
   if (profile.clanID && clanJumpWrap && clanJumpLink) {
-    clanJumpLink.href = `clans_v2.html?v=20260419t&clanID=${encodeURIComponent(profile.clanID)}`;
+    clanJumpLink.href = `player.html?id=${encodeURIComponent(profile.clanID)}&kind=clan`;
+    clanJumpLink.textContent = "Open clan in lookup";
     clanJumpWrap.hidden = false;
   } else if (clanJumpWrap) {
     clanJumpWrap.hidden = true;
@@ -1045,6 +950,12 @@ function renderGuildProfile(data) {
   playerIdLabel.textContent = `Guild ID: ${guildID}`;
   renderCountryLabel(guild.country);
   clanIdLabel.textContent = `Owner: ${guild.ownerName || guild.owner || "-"}`;
+
+  const moreDetailsBtn = document.getElementById("moreDetailsBtn");
+  if (moreDetailsBtn) {
+    moreDetailsBtn.hidden = true;
+  }
+
   renderGuildAvatar(guildName, guild, rawGuild);
 
   renderTableRows(statsTableBody, [
@@ -1088,11 +999,29 @@ async function loadLookup(rawId, forceRefresh = false) {
   playerError.hidden = true;
   profileGrid.hidden = true;
 
+  const moreDetailsBtn = document.getElementById("moreDetailsBtn");
+  if (moreDetailsBtn) {
+    moreDetailsBtn.hidden = true;
+  }
+
   const lookupId = String(rawId || "").trim();
   if (!lookupId) {
     playerError.textContent = "Please enter an ID.";
     playerError.hidden = false;
     return;
+  }
+
+  const kind = queryParam("kind");
+  if (kind === "clan") {
+    try {
+      const guildData = await apiGet(
+        `guild.php?id=${encodeURIComponent(lookupId)}${forceRefresh ? "&refresh=1" : ""}`,
+      );
+      renderGuildProfile(guildData);
+      return;
+    } catch (_) {
+      // Fall through to regular lookup
+    }
   }
 
   const query = new URLSearchParams({ id: lookupId });

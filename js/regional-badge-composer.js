@@ -17,8 +17,15 @@
 
     const promise = new Promise((resolve, reject) => {
       const img = new Image();
-      img.decoding = "async";
-      img.onload = () => resolve(img);
+      img.crossOrigin = "anonymous";
+      img.onload = async () => {
+        if (typeof img.decode === "function") {
+          try {
+            await img.decode();
+          } catch (_) {}
+        }
+        resolve(img);
+      };
       img.onerror = () => reject(new Error(`Failed to load image: ${src}`));
       img.src = src;
     });

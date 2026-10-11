@@ -1,0 +1,6 @@
+<SpriteInformation>
+<FrameInformation name="Decals/monkey_king" texw="124" texh="100" type="png">
+<Cell name="monkey_king_moab_colour" x="1" y="1" w="82" h="95" ax="0" ay="0" aw="82" ah="95"/>
+<Cell name="monkey_king_small_colour" x="86" y="1" w="33" h="38" ax="0" ay="0" aw="33" ah="38"/>
+</FrameInformation>
+</SpriteInformation>

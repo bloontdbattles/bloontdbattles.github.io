@@ -1,0 +1,6 @@
+<SpriteInformation>
+<FrameInformation name="Decals/kingofthesea" texw="88" texh="120" type="png">
+<Cell name="kingofthesea_moab" x="1" y="1" w="65" h="116" ax="0" ay="0" aw="65" ah="116"/>
+<Cell name="kingofthesea_small" x="68" y="1" w="19" h="34" ax="0" ay="0" aw="19" ah="34"/>
+</FrameInformation>
+</SpriteInformation>

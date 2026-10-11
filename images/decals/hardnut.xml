@@ -1,0 +1,6 @@
+<SpriteInformation>
+<FrameInformation name="Decals/hardnut" texw="148" texh="100" type="png">
+<Cell name="hardnut_moab" x="1" y="1" w="107" h="98" ax="0" ay="0" aw="107" ah="98"/>
+<Cell name="hardnut_small" x="110" y="1" w="36" h="33" ax="0" ay="0" aw="36" ah="33"/>
+</FrameInformation>
+</SpriteInformation>

@@ -1,0 +1,6 @@
+<SpriteInformation>
+<FrameInformation name="Decals/heartbreaker" texw="76" texh="104" type="png">
+<Cell name="heartbreaker_moab_colour" x="1" y="1" w="73" h="69" ax="0" ay="0" aw="73" ah="69"/>
+<Cell name="heartbreaker_small_colour" x="1" y="72" w="31" h="30" ax="0" ay="0" aw="31" ah="30"/>
+</FrameInformation>
+</SpriteInformation>

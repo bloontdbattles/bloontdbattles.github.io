@@ -1,0 +1,6 @@
+<SpriteInformation>
+<FrameInformation name="Decals/ninjakiwi" texw="148" texh="100" type="png">
+<Cell name="ninjakiwi_moab" x="1" y="1" w="112" h="95" ax="0" ay="0" aw="112" ah="95"/>
+<Cell name="ninjakiwi_small" x="115" y="1" w="32" h="28" ax="0" ay="0" aw="32" ah="28"/>
+</FrameInformation>
+</SpriteInformation>

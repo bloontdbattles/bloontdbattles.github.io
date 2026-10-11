@@ -1,0 +1,6 @@
+<SpriteInformation>
+<FrameInformation name="Decals/magnum" texw="72" texh="100" type="png">
+<Cell name="magnum_moab" x="1" y="1" w="50" h="98" ax="0" ay="0" aw="50" ah="98"/>
+<Cell name="magnum_small" x="53" y="1" w="15" h="28" ax="0" ay="0" aw="15" ah="28"/>
+</FrameInformation>
+</SpriteInformation>

@@ -1,0 +1,6 @@
+<SpriteInformation>
+<FrameInformation name="Decals/medic" texw="108" texh="80" type="png">
+<Cell name="medic_moab" x="1" y="1" w="78" h="78" ax="0" ay="0" aw="78" ah="78"/>
+<Cell name="medic_small" x="81" y="1" w="23" h="23" ax="0" ay="0" aw="23" ah="23"/>
+</FrameInformation>
+</SpriteInformation>

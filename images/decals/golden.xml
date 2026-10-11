@@ -1,0 +1,6 @@
+<SpriteInformation>
+<FrameInformation name="Decals/golden" texw="136" texh="96" type="png">
+<Cell name="golden_moab_colour" x="1" y="1" w="98" h="94" ax="0" ay="0" aw="98" ah="94"/>
+<Cell name="golden_small_colour" x="101" y="1" w="34" h="33" ax="0" ay="0" aw="34" ah="33"/>
+</FrameInformation>
+</SpriteInformation>

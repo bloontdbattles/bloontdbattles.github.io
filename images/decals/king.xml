@@ -1,0 +1,6 @@
+<SpriteInformation>
+<FrameInformation name="Decals/king" texw="116" texh="84" type="png">
+<Cell name="king_moab_colour" x="1" y="1" w="77" h="80" ax="0" ay="0" aw="77" ah="80"/>
+<Cell name="king_small_colour" x="80" y="1" w="32" h="32" ax="0" ay="0" aw="32" ah="32"/>
+</FrameInformation>
+</SpriteInformation>

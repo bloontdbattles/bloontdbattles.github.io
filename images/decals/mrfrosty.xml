@@ -1,0 +1,6 @@
+<SpriteInformation>
+<FrameInformation name="Decals/mrfrosty" texw="104" texh="108" type="png">
+<Cell name="mrfrosty_moab" x="1" y="1" w="75" h="103" ax="0" ay="0" aw="75" ah="103"/>
+<Cell name="mrfrosty_small" x="78" y="1" w="22" h="30" ax="0" ay="0" aw="22" ah="30"/>
+</FrameInformation>
+</SpriteInformation>

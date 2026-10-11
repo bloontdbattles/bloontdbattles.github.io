@@ -1,0 +1,6 @@
+<SpriteInformation>
+<FrameInformation name="Decals/gauntlet" texw="108" texh="120" type="png">
+<Cell name="gauntlet_moab_colour" x="1" y="1" w="104" h="83" ax="0" ay="0" aw="104" ah="83"/>
+<Cell name="gauntlet_small_colour" x="1" y="87" w="38" h="31" ax="0" ay="0" aw="38" ah="31"/>
+</FrameInformation>
+</SpriteInformation>

@@ -1,0 +1,6 @@
+<SpriteInformation>
+<FrameInformation name="Decals/jack_frost" texw="128" texh="92" type="png">
+<Cell name="jack_frost_moab_colour" x="1" y="1" w="86" h="87" ax="0" ay="0" aw="86" ah="87"/>
+<Cell name="jack_frost_small_colour" x="90" y="1" w="34" h="35" ax="0" ay="0" aw="34" ah="35"/>
+</FrameInformation>
+</SpriteInformation>

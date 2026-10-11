@@ -1,0 +1,6 @@
+<SpriteInformation>
+<FrameInformation name="Decals/mighty" texw="100" texh="100" type="png">
+<Cell name="mighty_moab" x="1" y="1" w="72" h="97" ax="0" ay="0" aw="72" ah="97"/>
+<Cell name="mighty_small" x="75" y="1" w="21" h="28" ax="0" ay="0" aw="21" ah="28"/>
+</FrameInformation>
+</SpriteInformation>

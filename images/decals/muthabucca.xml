@@ -1,0 +1,8 @@
+<SpriteInformation>
+<FrameInformation name="Decals/muthabucca" texw="392" texh="52" type="png">
+<Cell name="muthabucca_zomg" x="0" y="0" w="147" h="49" ax="0" ay="0" aw="147" ah="49"/>
+<Cell name="muthabucca_bfb" x="147" y="0" w="145" h="49" ax="0" ay="0" aw="145" ah="49"/>
+<Cell name="muthabucca_moab" x="292" y="0" w="100" h="34" ax="0" ay="0" aw="100" ah="34"/>
+<Cell name="muthabucca_small" x="292" y="34" w="38" h="15" ax="0" ay="0" aw="38" ah="15"/>
+</FrameInformation>
+</SpriteInformation>

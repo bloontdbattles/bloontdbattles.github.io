@@ -1,0 +1,6 @@
+<SpriteInformation>
+<FrameInformation name="Decals/infectious" texw="116" texh="88" type="png">
+<Cell name="infectious_moab" x="1" y="1" w="87" h="84" ax="0" ay="0" aw="87" ah="84"/>
+<Cell name="infectious_small" x="90" y="1" w="25" h="24" ax="0" ay="0" aw="25" ah="24"/>
+</FrameInformation>
+</SpriteInformation>

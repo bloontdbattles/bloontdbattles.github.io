@@ -1,0 +1,6 @@
+<SpriteInformation>
+<FrameInformation name="Decals/feathered_freedom" texw="88" texh="120" type="png">
+<Cell name="feathered_freedom_moab_colour" x="1" y="1" w="84" h="78" ax="0" ay="0" aw="84" ah="78"/>
+<Cell name="feathered_freedom_small_colour" x="1" y="81" w="38" h="35" ax="0" ay="0" aw="38" ah="35"/>
+</FrameInformation>
+</SpriteInformation>

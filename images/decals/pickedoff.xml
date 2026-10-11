@@ -1,0 +1,6 @@
+<SpriteInformation>
+<FrameInformation name="Decals/pickedoff" texw="124" texh="92" type="png">
+<Cell name="pickedoff_moab_colour" x="1" y="1" w="88" h="89" ax="0" ay="0" aw="88" ah="89"/>
+<Cell name="pickedoff_small_colour" x="91" y="1" w="31" h="31" ax="0" ay="0" aw="31" ah="31"/>
+</FrameInformation>
+</SpriteInformation>

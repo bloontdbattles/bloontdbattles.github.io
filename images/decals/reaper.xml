@@ -1,0 +1,6 @@
+<SpriteInformation>
+<FrameInformation name="reaper" texw="124" texh="100" type="png">
+<Cell name="reaper_moab_colour" x="1" y="1" w="79" h="95" ax="0" ay="0" aw="79" ah="95"/>
+<Cell name="reaper_small_colour" x="83" y="1" w="38" h="46" ax="0" ay="0" aw="38" ah="46"/>
+</FrameInformation>
+</SpriteInformation>

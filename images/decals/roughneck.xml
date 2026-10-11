@@ -1,0 +1,6 @@
+<SpriteInformation>
+<FrameInformation name="Decals/roughneck" texw="184" texh="88" type="png">
+<Cell name="roughneck_moab" x="1" y="1" w="139" h="83" ax="0" ay="0" aw="139" ah="83"/>
+<Cell name="roughneck_small" x="142" y="1" w="40" h="24" ax="0" ay="0" aw="40" ah="24"/>
+</FrameInformation>
+</SpriteInformation>

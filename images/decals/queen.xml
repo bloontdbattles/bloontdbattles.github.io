@@ -1,0 +1,6 @@
+<SpriteInformation>
+<FrameInformation name="Decals/queen" texw="84" texh="104" type="png">
+<Cell name="queen_moab_colour" x="1" y="1" w="80" h="72" ax="0" ay="0" aw="80" ah="72"/>
+<Cell name="queen_small_colour" x="1" y="75" w="32" h="28" ax="0" ay="0" aw="32" ah="28"/>
+</FrameInformation>
+</SpriteInformation>

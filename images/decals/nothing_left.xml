@@ -1,0 +1,6 @@
+<SpriteInformation>
+<FrameInformation name="Decals/nothing_left" texw="76" texh="100" type="png">
+<Cell name="nothing_left_moab" x="1" y="1" w="73" h="70" ax="0" ay="0" aw="73" ah="70"/>
+<Cell name="nothing_left_small" x="1" y="73" w="25" h="24" ax="0" ay="0" aw="25" ah="24"/>
+</FrameInformation>
+</SpriteInformation>

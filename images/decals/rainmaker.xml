@@ -1,0 +1,6 @@
+<SpriteInformation>
+<FrameInformation name="Decals/rainmaker" texw="100" texh="92" type="png">
+<Cell name="rainmaker_moab" x="1" y="1" w="72" h="88" ax="0" ay="0" aw="72" ah="88"/>
+<Cell name="rainmaker_small" x="75" y="1" w="21" h="26" ax="0" ay="0" aw="21" ah="26"/>
+</FrameInformation>
+</SpriteInformation>

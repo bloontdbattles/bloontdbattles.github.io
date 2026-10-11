@@ -1,0 +1,6 @@
+<SpriteInformation>
+<FrameInformation name="Decals/scalper" texw="88" texh="104" type="png">
+<Cell name="scalper_moab_colour" x="1" y="1" w="85" h="74" ax="0" ay="0" aw="85" ah="74"/>
+<Cell name="scalper_small_colour" x="1" y="77" w="30" h="25" ax="0" ay="0" aw="30" ah="25"/>
+</FrameInformation>
+</SpriteInformation>

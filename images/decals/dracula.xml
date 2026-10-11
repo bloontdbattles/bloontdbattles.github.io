@@ -1,0 +1,6 @@
+<SpriteInformation>
+<FrameInformation name="Decals/dracula" texw="104" texh="52" type="png">
+<Cell name="dracula_moab" x="1" y="1" w="102" h="33" ax="0" ay="0" aw="102" ah="33"/>
+<Cell name="dracula_small" x="1" y="36" w="38" h="12" ax="0" ay="0" aw="38" ah="12"/>
+</FrameInformation>
+</SpriteInformation>

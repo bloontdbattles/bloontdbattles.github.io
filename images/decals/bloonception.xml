@@ -1,0 +1,6 @@
+<SpriteInformation>
+<FrameInformation name="Decals/bloonception" texw="104" texh="108" type="png">
+<Cell name="bloonception_moab" x="1" y="1" w="76" h="103" ax="0" ay="0" aw="76" ah="103"/>
+<Cell name="bloonception_small" x="79" y="1" w="22" h="30" ax="0" ay="0" aw="22" ah="30"/>
+</FrameInformation>
+</SpriteInformation>

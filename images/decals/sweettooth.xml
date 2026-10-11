@@ -1,0 +1,6 @@
+<SpriteInformation>
+<FrameInformation name="Decals/sweettooth" texw="88" texh="112" type="png">
+<Cell name="sweettooth_moab" x="1" y="1" w="64" h="107" ax="0" ay="0" aw="64" ah="107"/>
+<Cell name="sweettooth_small" x="67" y="1" w="19" h="31" ax="0" ay="0" aw="19" ah="31"/>
+</FrameInformation>
+</SpriteInformation>

@@ -1,0 +1,6 @@
+<SpriteInformation>
+<FrameInformation name="Decals/leakfree" texw="128" texh="76" type="png">
+<Cell name="leakfree_moab" x="1" y="1" w="94" h="74" ax="0" ay="0" aw="94" ah="74"/>
+<Cell name="leakfree_small" x="97" y="1" w="27" h="21" ax="0" ay="0" aw="27" ah="21"/>
+</FrameInformation>
+</SpriteInformation>

@@ -1,0 +1,6 @@
+<SpriteInformation>
+<FrameInformation name="Decals/spreadthelove" texw="116" texh="88" type="png">
+<Cell name="spreadthelove_moab" x="1" y="1" w="87" h="86" ax="0" ay="0" aw="87" ah="86"/>
+<Cell name="spreadthelove_small" x="90" y="1" w="25" h="25" ax="0" ay="0" aw="25" ah="25"/>
+</FrameInformation>
+</SpriteInformation>

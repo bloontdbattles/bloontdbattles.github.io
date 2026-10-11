@@ -1,0 +1,6 @@
+<SpriteInformation>
+<FrameInformation name="Decals/giggles" texw="136" texh="108" type="png">
+<Cell name="giggles_moab" x="1" y="1" w="100" h="103" ax="0" ay="0" aw="100" ah="103"/>
+<Cell name="giggles_small" x="103" y="1" w="29" h="30" ax="0" ay="0" aw="29" ah="30"/>
+</FrameInformation>
+</SpriteInformation>

@@ -1,0 +1,6 @@
+<SpriteInformation>
+<FrameInformation name="Decals/backstabber" texw="80" texh="100" type="png">
+<Cell name="backstabber_moab" x="1" y="1" w="57" h="97" ax="0" ay="0" aw="57" ah="97"/>
+<Cell name="backstabber_small" x="60" y="1" w="17" h="28" ax="0" ay="0" aw="17" ah="28"/>
+</FrameInformation>
+</SpriteInformation>

@@ -1,0 +1,6 @@
+<SpriteInformation>
+<FrameInformation name="Decals/exit" texw="136" texh="100" type="png">
+<Cell name="exit_moab" x="1" y="1" w="98" h="96" ax="0" ay="0" aw="98" ah="96"/>
+<Cell name="exit_small" x="101" y="1" w="33" h="32" ax="0" ay="0" aw="33" ah="32"/>
+</FrameInformation>
+</SpriteInformation>

@@ -1,0 +1,6 @@
+<SpriteInformation>
+<FrameInformation name="Decals/elf" texw="88" texh="104" type="png">
+<Cell name="elf_moab_colour" x="1" y="1" w="82" h="69" ax="0" ay="0" aw="82" ah="69"/>
+<Cell name="elf_small_colour" x="1" y="73" w="36" h="30" ax="0" ay="0" aw="36" ah="30"/>
+</FrameInformation>
+</SpriteInformation>

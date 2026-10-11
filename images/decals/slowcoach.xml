@@ -1,0 +1,6 @@
+<SpriteInformation>
+<FrameInformation name="Decals/slowcoach" texw="92" texh="88" type="png">
+<Cell name="slowcoach_moab" x="1" y="1" w="67" h="85" ax="0" ay="0" aw="67" ah="85"/>
+<Cell name="slowcoach_small" x="70" y="1" w="19" h="25" ax="0" ay="0" aw="19" ah="25"/>
+</FrameInformation>
+</SpriteInformation>

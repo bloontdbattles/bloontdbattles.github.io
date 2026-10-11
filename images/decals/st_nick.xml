@@ -1,0 +1,6 @@
+<SpriteInformation>
+<FrameInformation name="Decals/st_nick" texw="92" texh="116" type="png">
+<Cell name="st_nick_moab_colour" x="1" y="1" w="88" h="79" ax="0" ay="0" aw="88" ah="79"/>
+<Cell name="st_nick_small_colour" x="1" y="83" w="35" h="32" ax="0" ay="0" aw="35" ah="32"/>
+</FrameInformation>
+</SpriteInformation>

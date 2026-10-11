@@ -1,0 +1,6 @@
+<SpriteInformation>
+<FrameInformation name="Decals/lightweight" texw="72" texh="112" type="png">
+<Cell name="lightweight_moab" x="1" y="1" w="52" h="108" ax="0" ay="0" aw="52" ah="108"/>
+<Cell name="lightweight_small" x="55" y="1" w="15" h="31" ax="0" ay="0" aw="15" ah="31"/>
+</FrameInformation>
+</SpriteInformation>

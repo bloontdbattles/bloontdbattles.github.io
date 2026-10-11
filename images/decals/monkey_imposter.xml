@@ -1,0 +1,6 @@
+<SpriteInformation>
+<FrameInformation name="Decals/monkey_imposter" texw="88" texh="96" type="png">
+<Cell name="monkey_imposter_moab_colour" x="1" y="1" w="82" h="64" ax="0" ay="1" aw="82" ah="66"/>
+<Cell name="monkey_imposter_small_colour" x="1" y="68" w="33" h="27" ax="0" ay="0" aw="33" ah="27"/>
+</FrameInformation>
+</SpriteInformation>

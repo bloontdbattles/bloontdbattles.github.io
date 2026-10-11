@@ -1,0 +1,6 @@
+<SpriteInformation>
+<FrameInformation name="Decals/mockery" texw="84" texh="108" type="png">
+<Cell name="mockery_moab_colour" x="1" y="1" w="79" h="71" ax="0" ay="0" aw="79" ah="71"/>
+<Cell name="mockery_small_colour" x="1" y="74" w="32" h="30" ax="0" ay="0" aw="32" ah="30"/>
+</FrameInformation>
+</SpriteInformation>

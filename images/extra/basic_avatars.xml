@@ -1,0 +1,52 @@
+<SpriteInformation>
+<FrameInformation name="basic_avatars" texw="1572" texh="916" type="png">
+<Cell name="achievement_bg" x="319" y="1" w="293" h="179" ax="0" ay="0" aw="293" ah="179"/>
+<Cell name="BananaFarm_avatar" x="917" y="678" w="137" h="166" ax="0" ay="0" aw="137" ah="166"/>
+<Cell name="Bloonchipper_avatar" x="1403" y="452" w="130" h="140" ax="0" ay="0" aw="130" ah="140"/>
+<Cell name="BombTower_avatar" x="959" y="360" w="156" h="143" ax="0" ay="0" aw="156" ah="143"/>
+<Cell name="BoomerangThrower_avatar" x="1057" y="656" w="132" h="155" ax="0" ay="0" aw="132" ah="155"/>
+<Cell name="boosted_icon" x="1" y="573" w="207" h="160" ax="0" ay="0" aw="207" ah="160"/>
+<Cell name="CobraMonkey_avatar" x="1482" y="153" w="78" h="120" ax="0" ay="0" aw="78" ah="120"/>
+<Cell name="DartlingGun_avatar" x="1332" y="1" w="152" h="126" ax="0" ay="0" aw="152" ah="126"/>
+<Cell name="DartMonkey_avatar" x="877" y="1" w="118" h="115" ax="0" ay="0" aw="118" ah="115"/>
+<Cell name="getting_defensive_icon" x="421" y="489" w="183" h="169" ax="0" ay="0" aw="183" ah="169"/>
+<Cell name="glint" x="877" y="119" w="41" h="41" ax="0" ay="0" aw="41" ah="41"/>
+<Cell name="GlueGunner_avatar" x="1264" y="446" w="136" h="153" ax="0" ay="0" aw="136" ah="153"/>
+<Cell name="gold_projectiles_store" x="1" y="1" w="315" h="192" ax="0" ay="0" aw="315" ah="192"/>
+<Cell name="got_em_all_icon" x="615" y="170" w="217" h="166" ax="0" ay="0" aw="217" ah="166"/>
+<Cell name="heavy_assault_icon" x="1" y="736" w="195" h="176" ax="0" ay="0" aw="195" ah="176"/>
+<Cell name="HeliPilot_avatar" x="421" y="363" w="186" h="123" ax="0" ay="0" aw="186" ah="123"/>
+<Cell name="IceTower_avatar" x="1325" y="602" w="115" h="162" ax="0" ay="0" aw="115" ah="162"/>
+<Cell name="jack_of_all_towers_icon" x="215" y="391" w="203" h="149" ax="0" ay="0" aw="203" ah="149"/>
+<Cell name="locked_icon" x="1192" y="626" w="130" h="154" ax="0" ay="0" aw="130" ah="154"/>
+<Cell name="MonkeyAce_avatar" x="1009" y="173" w="157" h="155" ax="0" ay="0" aw="157" ah="155"/>
+<Cell name="MonkeyApprentice_avatar" x="1487" y="1" w="80" h="149" ax="0" ay="0" aw="80" ah="149"/>
+<Cell name="MonkeyBuccaneer_avatar" x="1118" y="331" w="143" h="141" ax="0" ay="0" aw="143" ah="141"/>
+<Cell name="MonkeyEngineer_avatar" x="1325" y="767" w="100" h="148" ax="0" ay="0" aw="100" ah="148"/>
+<Cell name="MonkeyFarmer_avatar" x="835" y="170" w="171" h="187" ax="0" ay="0" aw="171" ah="187"/>
+<Cell name="MonkeySub_avatar" x="199" y="736" w="177" h="116" ax="0" ay="0" aw="177" ah="116"/>
+<Cell name="MonkeyVillage_avatar" x="1332" y="130" w="147" h="155" ax="0" ay="0" aw="147" ah="155"/>
+<Cell name="MortarTower_avatar" x="788" y="360" w="168" h="160" ax="0" ay="0" aw="168" ah="160"/>
+<Cell name="NinjaMonkey_avatar" x="1171" y="168" w="148" h="147" ax="0" ay="0" aw="148" ah="147"/>
+<Cell name="open_season_icon" x="1" y="391" w="211" h="179" ax="0" ay="0" aw="211" ah="179"/>
+<Cell name="penultimate_icon" x="215" y="543" w="193" h="181" ax="0" ay="0" aw="193" ah="181"/>
+<Cell name="popping_streak_icon" x="411" y="661" w="170" h="163" ax="0" ay="0" aw="170" ah="163"/>
+<Cell name="RoboFarmer_avatar" x="584" y="681" w="165" h="197" ax="0" ay="0" aw="165" ah="197"/>
+<Cell name="silver_projectiles_store" x="1" y="196" w="315" h="192" ax="0" ay="0" aw="315" ah="192"/>
+<Cell name="SniperMonkey_avatar" x="959" y="506" w="146" h="147" ax="0" ay="0" aw="146" ah="147"/>
+<Cell name="spawner_icon" x="615" y="1" w="259" h="166" ax="0" ay="0" aw="259" ah="166"/>
+<Cell name="SpikeFactory_avatar" x="1264" y="318" w="138" h="125" ax="0" ay="0" aw="138" ah="125"/>
+<Cell name="SuperMonkey_avatar" x="778" y="523" w="164" h="152" ax="0" ay="0" aw="164" ah="152"/>
+<Cell name="TackTower_avatar" x="1118" y="475" w="142" h="148" ax="0" ay="0" aw="142" ah="148"/>
+<Cell name="tattoo_you_icon" x="752" y="681" w="162" h="169" ax="0" ay="0" aw="162" ah="169"/>
+<Cell name="the_bigger_they_are_icon" x="610" y="339" w="175" h="166" ax="0" ay="0" aw="176" ah="166"/>
+<Cell name="top_tier_icon" x="1171" y="1" w="158" h="164" ax="0" ay="0" aw="158" ah="164"/>
+<Cell name="towers_tower_shadow" x="199" y="855" w="143" h="48" ax="0" ay="0" aw="143" ah="48"/>
+<Cell name="uber_popper_icon" x="319" y="183" w="286" h="177" ax="0" ay="0" aw="286" ah="177"/>
+<Cell name="unspoppable_icon" x="607" y="508" w="168" h="170" ax="0" ay="0" aw="168" ah="170"/>
+<Cell name="war_paint_icon" x="1405" y="288" w="135" h="161" ax="0" ay="1" aw="135" ah="162"/>
+<Cell name="what_did_you_expect_icon" x="1009" y="1" w="159" h="169" ax="0" ay="0" aw="159" ah="169"/>
+<Cell name="white_square" x="319" y="363" w="2" h="2" ax="0" ay="0" aw="2" ah="2"/>
+<Cell name="winner_icon" x="1443" y="595" w="111" h="169" ax="0" ay="0" aw="111" ah="169"/>
+</FrameInformation>
+</SpriteInformation>

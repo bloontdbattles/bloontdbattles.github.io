@@ -1,0 +1,6 @@
+<SpriteInformation>
+<FrameInformation name="Decals/bloonjaminfranklin" texw="80" texh="96" type="png">
+<Cell name="bloonjaminfranklin_moab" x="1" y="1" w="58" h="91" ax="0" ay="0" aw="58" ah="91"/>
+<Cell name="bloonjaminfranklin_small" x="61" y="1" w="17" h="26" ax="0" ay="0" aw="17" ah="26"/>
+</FrameInformation>
+</SpriteInformation>

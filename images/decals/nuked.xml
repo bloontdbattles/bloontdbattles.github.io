@@ -1,0 +1,6 @@
+<SpriteInformation>
+<FrameInformation name="Decals/nuked" texw="124" texh="104" type="png">
+<Cell name="nuked_moab_colour" x="1" y="1" w="88" h="99" ax="0" ay="0" aw="88" ah="99"/>
+<Cell name="nuked_small_colour" x="92" y="1" w="30" h="35" ax="0" ay="0" aw="30" ah="35"/>
+</FrameInformation>
+</SpriteInformation>

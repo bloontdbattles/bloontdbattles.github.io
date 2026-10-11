@@ -1,0 +1,6 @@
+<SpriteInformation>
+<FrameInformation name="Decals/reindeer" texw="128" texh="88" type="png">
+<Cell name="reindeer_moab_colour" x="1" y="1" w="85" h="86" ax="0" ay="0" aw="85" ah="86"/>
+<Cell name="reindeer_small_colour" x="89" y="1" w="36" h="36" ax="0" ay="0" aw="36" ah="36"/>
+</FrameInformation>
+</SpriteInformation>

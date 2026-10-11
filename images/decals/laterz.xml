@@ -1,0 +1,6 @@
+<SpriteInformation>
+<FrameInformation name="Decals/laterz" texw="92" texh="108" type="png">
+<Cell name="laterz_moab_colour" x="1" y="1" w="87" h="76" ax="0" ay="0" aw="87" ah="76"/>
+<Cell name="laterz_small_colour" x="1" y="79" w="30" h="26" ax="0" ay="0" aw="30" ah="26"/>
+</FrameInformation>
+</SpriteInformation>

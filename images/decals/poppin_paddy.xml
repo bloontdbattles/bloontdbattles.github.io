@@ -1,0 +1,6 @@
+<SpriteInformation>
+<FrameInformation name="Decals/poppin_paddy" texw="84" texh="120" type="png">
+<Cell name="poppin_paddy_moab_colour" x="1" y="1" w="80" h="80" ax="0" ay="0" aw="80" ah="80"/>
+<Cell name="poppin_paddy_small_colour" x="1" y="83" w="36" h="36" ax="0" ay="0" aw="36" ah="36"/>
+</FrameInformation>
+</SpriteInformation>

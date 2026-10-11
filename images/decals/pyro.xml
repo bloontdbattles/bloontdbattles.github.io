@@ -1,0 +1,6 @@
+<SpriteInformation>
+<FrameInformation name="Decals/pyro" texw="88" texh="108" type="png">
+<Cell name="pyro_moab" x="1" y="1" w="63" h="105" ax="0" ay="0" aw="63" ah="105"/>
+<Cell name="pyro_small" x="66" y="1" w="18" h="30" ax="0" ay="0" aw="18" ah="30"/>
+</FrameInformation>
+</SpriteInformation>

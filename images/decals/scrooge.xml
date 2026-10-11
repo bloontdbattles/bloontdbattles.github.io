@@ -1,0 +1,6 @@
+<SpriteInformation>
+<FrameInformation name="Decals/scrooge" texw="104" texh="80" type="png">
+<Cell name="scrooge_moab_colour" x="1" y="1" w="70" h="78" ax="0" ay="0" aw="70" ah="78"/>
+<Cell name="scrooge_small_colour" x="73" y="1" w="27" h="30" ax="0" ay="0" aw="27" ah="30"/>
+</FrameInformation>
+</SpriteInformation>

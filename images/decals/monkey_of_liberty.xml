@@ -1,0 +1,6 @@
+<SpriteInformation>
+<FrameInformation name="Decals/monkey_of_liberty" texw="96" texh="124" type="png">
+<Cell name="monkey_of_liberty_moab_colour" x="1" y="1" w="93" h="83" ax="0" ay="0" aw="93" ah="83"/>
+<Cell name="monkey_of_liberty_small_colour" x="1" y="86" w="42" h="37" ax="0" ay="0" aw="42" ah="37"/>
+</FrameInformation>
+</SpriteInformation>

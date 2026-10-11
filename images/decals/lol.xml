@@ -1,0 +1,6 @@
+<SpriteInformation>
+<FrameInformation name="Decals/lol" texw="96" texh="96" type="png">
+<Cell name="lol_moab_colour" x="1" y="1" w="91" h="67" ax="0" ay="0" aw="91" ah="67"/>
+<Cell name="lol_small_colour" x="1" y="71" w="31" h="23" ax="0" ay="0" aw="31" ah="23"/>
+</FrameInformation>
+</SpriteInformation>

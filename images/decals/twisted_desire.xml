@@ -1,0 +1,6 @@
+<SpriteInformation>
+<FrameInformation name="Decals/twisted_desire" texw="144" texh="104" type="png">
+<Cell name="twisted_desire_moab_colour" x="1" y="1" w="100" h="100" ax="0" ay="0" aw="100" ah="100"/>
+<Cell name="twisted_desire_small_colour" x="103" y="1" w="38" h="38" ax="0" ay="0" aw="38" ah="38"/>
+</FrameInformation>
+</SpriteInformation>

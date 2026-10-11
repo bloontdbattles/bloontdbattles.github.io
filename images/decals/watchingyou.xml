@@ -1,0 +1,6 @@
+<SpriteInformation>
+<FrameInformation name="Decals/watchingyou" texw="128" texh="68" type="png">
+<Cell name="watchingyou_moab" x="1" y="1" w="96" h="63" ax="0" ay="0" aw="96" ah="63"/>
+<Cell name="watchingyou_small" x="99" y="1" w="28" h="18" ax="0" ay="0" aw="28" ah="18"/>
+</FrameInformation>
+</SpriteInformation>

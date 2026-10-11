@@ -1,0 +1,6 @@
+<SpriteInformation>
+<FrameInformation name="Decals/trick_or_treat" texw="84" texh="104" type="png">
+<Cell name="trick_or_treat_moab_colour" x="1" y="1" w="80" h="71" ax="0" ay="0" aw="80" ah="71"/>
+<Cell name="trick_or_treat_small_colour" x="1" y="74" w="32" h="28" ax="0" ay="0" aw="32" ah="28"/>
+</FrameInformation>
+</SpriteInformation>

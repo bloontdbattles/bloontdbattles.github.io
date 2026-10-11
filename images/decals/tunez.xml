@@ -1,0 +1,6 @@
+<SpriteInformation>
+<FrameInformation name="Decals/tunez" texw="92" texh="100" type="png">
+<Cell name="tunez_moab" x="1" y="1" w="66" h="97" ax="0" ay="0" aw="66" ah="97"/>
+<Cell name="tunez_small" x="69" y="1" w="19" h="28" ax="0" ay="0" aw="19" ah="28"/>
+</FrameInformation>
+</SpriteInformation>

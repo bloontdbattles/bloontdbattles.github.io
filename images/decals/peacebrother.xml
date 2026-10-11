@@ -1,0 +1,6 @@
+<SpriteInformation>
+<FrameInformation name="Decals/peacebrother" texw="124" texh="96" type="png">
+<Cell name="peacebrother_moab" x="1" y="1" w="92" h="92" ax="0" ay="0" aw="92" ah="92"/>
+<Cell name="peacebrother_small" x="95" y="1" w="27" h="27" ax="0" ay="0" aw="27" ah="27"/>
+</FrameInformation>
+</SpriteInformation>

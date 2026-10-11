@@ -1,0 +1,8 @@
+<SpriteInformation>
+<FrameInformation name="Decals/ironclad" texw="408" texh="32" type="png">
+<Cell name="ironclad_zomg" x="1" y="1" w="152" h="27" ax="0" ay="0" aw="152" ah="27"/>
+<Cell name="ironclad_bfb" x="155" y="1" w="144" h="26" ax="0" ay="0" aw="144" ah="26"/>
+<Cell name="ironclad_moab" x="301" y="1" w="103" h="18" ax="0" ay="0" aw="103" ah="18"/>
+<Cell name="ironclad_small" x="301" y="21" w="38" h="7" ax="0" ay="0" aw="38" ah="7"/>
+</FrameInformation>
+</SpriteInformation>

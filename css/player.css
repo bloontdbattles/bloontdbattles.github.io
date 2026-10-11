@@ -96,17 +96,46 @@ a {
 }
 
 .avatar--clan-composite {
-  background: transparent;
-  border: 1px solid rgba(221, 182, 230, 0.35);
-  padding: 2px;
+  background: transparent !important;
+  border: none !important;
+  border-radius: 0 !important;
+  padding: 0 !important;
+  width: 80px;
+  height: 80px;
+  overflow: visible;
 }
 
 .avatar-clan-image {
+  width: 80px;
+  height: 80px;
+  border-radius: 0;
+  object-fit: contain;
+  display: block;
+  image-rendering: pixelated;
+}
+
+.badge-composite {
+  position: relative;
+  width: 80px;
+  height: 80px;
+  display: inline-block;
+}
+
+.badge-layer {
+  position: absolute;
+  inset: 0;
   width: 100%;
   height: 100%;
-  border-radius: 999px;
-  object-fit: cover;
-  display: block;
+  object-fit: contain;
+  image-rendering: pixelated;
+}
+
+.badge-layer--shield {
+  z-index: 1;
+}
+
+.badge-layer--icon {
+  z-index: 2;
 }
 
 .user-info h2 {

@@ -1,0 +1,272 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1604568622935054" crossorigin="anonymous"></script>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-HT099D5F9Q"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+      gtag("config", "G-HT099D5F9Q");
+    </script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BTD Battles Stats | Player Details</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet" />
+    <link rel="icon" type="image/png" href="images/extra/blueblood.png" />
+    <link rel="apple-touch-icon" href="images/extra/blueblood.png" />
+    <link rel="stylesheet" href="css/main.css?v=20260417u" />
+    <link rel="stylesheet" href="css/player.css?v=20260419e" />
+    <link rel="stylesheet" href="css/player_details.css?v=20260419a" />
+  </head>
+  <body>
+    <div class="bg-orb orb-1"></div>
+    <div class="bg-orb orb-2"></div>
+
+    <header class="site-header">
+      <a class="brand" href="index.html">
+        <span class="brand-mark">BTD</span>
+        <span class="brand-text">Battles Stats</span>
+      </a>
+      <button class="menu-btn" id="menuBtn" aria-label="Toggle navigation">Menu</button>
+      <nav class="site-nav" id="siteNav">
+        <a href="index.html">Home</a>
+        <a href="leaderboard.html">Leaderboard</a>
+        <a href="past_weeks.html">Past Weeks</a>
+        <a href="clans_v2.html?v=20260419t">Clans</a>
+        <a class="active" href="player.html">Lookup</a>
+      </nav>
+    </header>
+
+    <main class="details-container">
+      <!-- Head Section -->
+      <section class="details-head page-head reveal">
+        <div>
+          <p class="eyebrow">Comprehensive Profile</p>
+          <h1 id="pageTitle">Player Details</h1>
+        </div>
+        <div>
+          <a id="backToLookupLink" href="player.html" class="btn-back">&larr; Back to lookup</a>
+        </div>
+      </section>
+
+      <!-- Error State Banner -->
+      <div id="detailsError" class="error-banner" hidden></div>
+
+      <!-- Loading Spinner Skeleton -->
+      <div id="detailsLoader" class="loading-box">
+        <div class="spinner"></div>
+        <p>Decoding player save & profile info...</p>
+      </div>
+
+      <!-- Main Profile Content (hidden until loaded) -->
+      <div id="detailsContent" hidden>
+        <!-- Header Banner Card -->
+        <section class="glass-card">
+          <div class="profile-banner">
+            <div class="profile-avatar" id="detailsAvatar"></div>
+            <div class="profile-info">
+              <h2 id="detailsUsername">Unknown Player</h2>
+              <div class="profile-meta-list">
+                <span class="profile-meta-item" id="detailsPlayerId">ID: -</span>
+                <span class="profile-meta-item" id="detailsCountry">Country: -</span>
+                <span class="profile-meta-item" id="detailsClan">Clan: -</span>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Stats Card (Two Columns) -->
+        <details class="collapsible-card" open>
+          <summary>
+            <span>Overview & Leaderboard Stats</span>
+            <svg class="chevron-icon" viewBox="0 0 24 24"><path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6z"/></svg>
+          </summary>
+          <div class="card-body grid-2col">
+            <div>
+              <h3 class="section-title">Performance</h3>
+              <table class="details-table">
+                <tbody id="statsLeftBody"></tbody>
+              </table>
+            </div>
+            <div>
+              <h3 class="section-title">Weekly & Tournaments</h3>
+              <table class="details-table">
+                <tbody id="statsRightBody"></tbody>
+              </table>
+            </div>
+          </div>
+        </details>
+
+        <!-- Battle Type Split (Card vs Standard) -->
+        <details class="collapsible-card" open>
+          <summary>
+            <span>Battle Mode Split</span>
+            <svg class="chevron-icon" viewBox="0 0 24 24"><path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6z"/></svg>
+          </summary>
+          <div class="card-body grid-2col">
+            <div class="glass-card" style="margin-bottom:0;">
+              <h3 class="section-title">Card Battles</h3>
+              <table class="details-table">
+                <tbody id="cardBattlesBody"></tbody>
+              </table>
+            </div>
+            <div class="glass-card" style="margin-bottom:0;">
+              <h3 class="section-title">Standard Battles</h3>
+              <table class="details-table">
+                <tbody id="standardBattlesBody"></tbody>
+              </table>
+            </div>
+          </div>
+        </details>
+
+        <!-- Farmers -->
+        <details class="collapsible-card" open>
+          <summary>
+            <span>Farmers Inventory</span>
+            <svg class="chevron-icon" viewBox="0 0 24 24"><path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6z"/></svg>
+          </summary>
+          <div class="card-body grid-2col" id="farmersGrid"></div>
+        </details>
+
+        <!-- Powers Section -->
+        <details class="collapsible-card" open id="powersCard">
+          <summary>
+            <span>Powers Tree</span>
+            <svg class="chevron-icon" viewBox="0 0 24 24"><path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6z"/></svg>
+          </summary>
+          <div class="card-body" id="powersContainer">
+            <div class="loading-box" style="padding:1rem;">
+              <div class="spinner" style="width:32px;height:32px;margin:0 auto 0.5rem;"></div>
+              <p style="font-size:0.9rem;color:var(--muted);">Loading Powers Tree...</p>
+            </div>
+          </div>
+        </details>
+
+
+        <!-- Bloon Decals -->
+        <details class="collapsible-card" open>
+          <summary>
+            <span>Bloon Decals</span>
+            <svg class="chevron-icon" viewBox="0 0 24 24"><path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6z"/></svg>
+          </summary>
+          <div class="card-body">
+            <div class="grid-cards" id="decalsGrid"></div>
+          </div>
+        </details>
+
+        <!-- Arenas / Current Played Info -->
+        <details class="collapsible-card" open>
+          <summary>
+            <span>Arena Performance</span>
+            <svg class="chevron-icon" viewBox="0 0 24 24"><path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6z"/></svg>
+          </summary>
+          <div class="card-body">
+            <div class="grid-arenas" id="arenasGrid"></div>
+          </div>
+        </details>
+
+        <!-- Bloons Tracking -->
+        <details class="collapsible-card" open>
+          <summary>
+            <span>Bloon & Boost Statistics</span>
+            <svg class="chevron-icon" viewBox="0 0 24 24"><path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6z"/></svg>
+          </summary>
+          <div class="card-body">
+            <table class="details-table">
+              <tbody id="bloonsStatsBody"></tbody>
+            </table>
+          </div>
+        </details>
+
+        <!-- Featured Badge & Badges -->
+        <details class="collapsible-card" open>
+          <summary>
+            <span>Badges Showcase</span>
+            <svg class="chevron-icon" viewBox="0 0 24 24"><path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6z"/></svg>
+          </summary>
+          <div class="card-body">
+            <div class="badges">
+              <h3>Featured Badge</h3>
+              <div id="detailsFeaturedBadgeWrap" class="badge-wrap"></div>
+            </div>
+            <div class="badges" style="margin-top: 1.2rem;">
+              <h3>All Badges</h3>
+              <div id="detailsBadgesWrap" class="badge-wrap"></div>
+            </div>
+          </div>
+        </details>
+
+        <!-- Battle Card Decks -->
+        <details class="collapsible-card" open>
+          <summary>
+            <span>Battle Card Decks</span>
+            <svg class="chevron-icon" viewBox="0 0 24 24"><path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6z"/></svg>
+          </summary>
+          <div class="card-body" id="cardDecksContainer"></div>
+        </details>
+
+        <!-- Following -->
+        <details class="collapsible-card" open>
+          <summary>
+            <span>Following Players</span>
+            <svg class="chevron-icon" viewBox="0 0 24 24"><path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6z"/></svg>
+          </summary>
+          <div class="card-body">
+            <div class="following-grid" id="followingGrid"></div>
+            <button id="showMoreFollowingBtn" class="btn-show-more" hidden>Show More Following</button>
+          </div>
+        </details>
+
+        <!-- Guild History -->
+        <details class="collapsible-card" open>
+          <summary>
+            <span>Clan History</span>
+            <svg class="chevron-icon" viewBox="0 0 24 24"><path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6z"/></svg>
+          </summary>
+          <div class="card-body" id="guildHistoryContainer"></div>
+        </details>
+
+        <!-- Purchased Items -->
+        <details class="collapsible-card" open>
+          <summary>
+            <span>Purchased Items</span>
+            <svg class="chevron-icon" viewBox="0 0 24 24"><path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6z"/></svg>
+          </summary>
+          <div class="card-body" id="purchasedItemsContainer"></div>
+        </details>
+
+        <!-- Unlocks -->
+        <details class="collapsible-card" open>
+          <summary>
+            <span>Unlocks & Cosmetics</span>
+            <svg class="chevron-icon" viewBox="0 0 24 24"><path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6z"/></svg>
+          </summary>
+          <div class="card-body" id="unlocksContainer"></div>
+        </details>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <p>Made By KAViNDA &copy;</p>
+    </footer>
+
+    <!-- Required Libraries & Utilities -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pako/2.1.0/pako.min.js"></script>
+    <script src="js/config.js"></script>
+    <script src="js/utils.js?v=20261010a"></script>
+    <script src="js/main.js?v=20261010a"></script>
+    <script src="js/clan-badge-composer.js?v=20261010a"></script>
+    <script src="js/regional-badge-composer.js?v=20261010c"></script>
+    <script src="js/regional-badge-position-config.js?v=20261010a"></script>
+    <script src="js/decoder.js?v=20261010a"></script>
+    <script src="js/asset-map.js?v=20261010a"></script>
+    <script src="js/powers-map.js?v=20261010a"></script>
+    <script src="js/player_details.js?v=20261010c"></script>
+  </body>
+</html>
